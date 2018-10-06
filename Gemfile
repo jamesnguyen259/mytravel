@@ -23,6 +23,17 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem "bootstrap-sass", "~> 3.3.7"
+gem "flexslider"
+gem "jquery-easing-rails"
+gem 'animate-rails', '~> 1.0', '>= 1.0.10'
+gem 'magnific-popup-rails', '~> 1.1'
+gem 'waypoints_rails'
+gem 'modernizr-rails', '~> 2.7', '>= 2.7.1'
+gem 'owlcarousel-rails', '~> 2.2', '>= 2.2.3.5'
+gem 'stickykit-rails', '~> 1.1', '>= 1.1.2'
+gem 'icomoon-rails', '~> 0.1.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

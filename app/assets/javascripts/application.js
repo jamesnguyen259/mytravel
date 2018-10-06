@@ -13,4 +13,16 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require bootstrap-sprockets
+//= require jquery.flexslider
+//= require jquery.easing
+//= require magnific-popup
+//= require waypoints/jquery.waypoints.js
+//= require waypoints/jquery.waypoints.min.js
+//= require waypoints/noframework.waypoints.js
+//= require waypoints/noframework.waypoints.min.js
+//= require waypoints/waypoints.debug.js
+//= require waypoints/zepto.waypoints.js
+//= require waypoints/zepto.waypoints.min.js
+//= require owl.carousel
+//= require main
