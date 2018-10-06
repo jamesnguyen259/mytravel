@@ -7310,3 +7310,3359 @@ Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0
 
 Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 09:49:10 +0000
 Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 12:11:27 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 651ms (Views: 639.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 12:11:28 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 12:11:28 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:11:28 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.0ms)
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 12:11:28 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 12:11:29 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:11:29 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:11:29 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 12:11:29 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 12:11:29 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 12:11:29 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 12:11:29 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 12:11:29 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 12:11:29 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 12:11:29 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:11:29 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 12:11:29 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 12:11:29 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:11:29 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:11:55 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 205ms (Views: 203.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:13:33 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 125ms (Views: 124.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:13:34 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:13:35 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.1ms)
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:13:35 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:13:35 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:13:35 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 12:18:08 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 175ms (Views: 173.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 12:18:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 107ms (Views: 106.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 12:18:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 12:18:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:18:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.2ms)
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:18:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:18:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 12:18:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 12:18:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 12:18:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 12:18:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 12:18:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 12:18:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:18:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 12:18:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 12:18:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 12:18:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 12:18:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 12:18:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:18:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:18:14 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 121ms (Views: 120.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 12:18:30 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 92ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.7ms)
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 12:18:31 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 12:20:56 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 527ms (Views: 516.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 12:20:58 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 12:20:58 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 12:20:58 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:20:58 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.1ms)
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:20:58 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:20:58 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:20:58 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 12:20:58 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 12:20:58 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 12:20:58 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 12:20:58 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 12:20:58 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:20:58 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 12:20:58 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 12:20:58 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 12:20:59 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 12:20:59 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 12:20:59 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:21:08 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 203ms (Views: 202.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:21:08 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:21:08 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.2ms)
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:21:08 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:21:08 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:21:08 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 12:21:11 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 95ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 12:21:11 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 12:21:11 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 12:21:11 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 12:21:11 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 12:21:11 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:21:11 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.4ms)
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 12:21:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 12:21:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:21:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 12:21:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 12:21:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:21:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:21:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:21:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 12:21:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 12:21:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 12:21:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 12:21:12 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:21:14 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 111ms (Views: 109.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:21:14 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:21:14 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.2ms)
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:21:14 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:21:14 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:21:14 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:21:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 108ms (Views: 107.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:21:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:21:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.9ms)
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:21:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:21:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:21:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 12:21:19 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 101ms (Views: 99.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.4ms)
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 12:21:20 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:21:21 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 109ms (Views: 108.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:21:22 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:21:22 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:21:22 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:21:22 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.2ms)
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:21:22 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:22:14 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 156ms (Views: 155.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:22:15 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.2ms)
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:22:15 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:22:15 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:22:15 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:22:15 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:22:15 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 106ms (Views: 105.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:22:15 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:22:15 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:22:15 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:22:15 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.8ms)
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:22:15 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 12:22:17 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 96ms (Views: 95.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 12:22:17 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 12:22:17 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 12:22:17 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 12:22:17 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:22:17 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.6ms)
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:22:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:22:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 12:22:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:22:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 12:22:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 12:22:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 12:22:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 12:22:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:22:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 12:22:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 12:22:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 12:22:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 12:22:18 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:27:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 138ms (Views: 137.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:27:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.9ms)
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:27:13 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:27:14 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:27:14 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:27:14 +0000
+Cannot render console from 58.187.67.109! Allowed networks: 58.187.67.109, 127.0.0.0/127.255.255.255, ::1
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 12:28:41 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 531ms (Views: 521.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 12:28:42 +0000
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 12:28:42 +0000
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (44.4ms)
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 12:28:43 +0000
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:28:48 +0000
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 211ms (Views: 210.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:28:48 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:28:49 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (42.4ms)
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:28:49 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:28:49 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:28:49 +0000
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 12:33:04 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 229ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'icomoon-free' with type 'text/css'
+Checked in these paths: 
+  /home/ubuntu/workspace/app/assets/fonts
+  /home/ubuntu/workspace/app/assets/images
+  /home/ubuntu/workspace/app/assets/javascripts
+  /home/ubuntu/workspace/app/assets/stylesheets
+  /home/ubuntu/workspace/vendor/assets/javascripts
+  /home/ubuntu/workspace/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.4/gems/icomoon-rails-0.1.0/vendor/assets/fonts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/icomoon-rails-0.1.0/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/icomoon-rails-0.1.0/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.4/gems/stickykit-rails-1.1.2/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/owlcarousel-rails-2.2.3.5/vendor/assets/images
+  /usr/local/rvm/gems/ruby-2.3.4/gems/owlcarousel-rails-2.2.3.5/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/owlcarousel-rails-2.2.3.5/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.4/gems/modernizr-rails-2.7.1/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/waypoints_rails-4.0.1/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/magnific-popup-rails-1.1.0/app/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/magnific-popup-rails-1.1.0/app/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.4/gems/animate-rails-1.0.10/app/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.4/gems/jquery-easing-rails-0.0.2/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/flexslider-2.2.0/vendor/assets/images
+  /usr/local/rvm/gems/ruby-2.3.4/gems/flexslider-2.2.0/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/flexslider-2.2.0/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.4/gems/jquery-rails-4.3.3/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.4/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/bootstrap-sass-3.3.7/assets/fonts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/bootstrap-sass-3.3.7/assets/images):
+    2: <html>
+    3: <head>
+    4:   <title>Mytravel</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= javascript_include_tag :modernizr %>
+    8:   <%= csrf_meta_tags %>
+  app/assets/stylesheets/application.scss:14
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1895405854228155385_70276169176760'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.2ms)
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 12:34:05 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3501ms (Views: 3499.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 12:34:09 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:34:09 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:34:09 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:34:09 +0000
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 12:34:09 +0000
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 12:34:09 +0000
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 12:34:09 +0000
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 12:34:09 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:34:09 +0000
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 12:34:09 +0000
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 12:34:10 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:34:10 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.1ms)
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 12:34:10 +0000
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 12:34:10 +0000
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 12:34:10 +0000
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 12:34:10 +0000
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 12:34:10 +0000
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 12:34:10 +0000
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:34:11 +0000
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 110ms (Views: 109.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:34:11 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:34:11 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.6ms)
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:34:11 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:34:11 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:34:11 +0000
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:45:12 +0000
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (3044.7ms)
+Completed 200 OK in 3365ms (Views: 3354.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.self-2a86d2017f4b74f22943750b3b50b9cb753581bab96cbdaaf2df53f4c04c995b.css?body=1" for 58.187.67.109 at 2018-10-06 12:45:15 +0000
+
+
+Started GET "/assets/application.self-3807b74db13dedd54213f72d46ab994364fbf2d7eaf3f2e448dd52586f0b2bc8.css?body=1" for 58.187.67.109 at 2018-10-06 12:45:16 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:45:16 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:45:16 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:45:17 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:45:17 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.8ms)
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:45:17 +0000
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:46:49 +0000
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 2822ms (Views: 2820.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-095b219d3fe0ce4fcf9734fd135d659f373324da3b88f84db9d7ed24a861d8de.css?body=1" for 58.187.67.109 at 2018-10-06 12:46:52 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:46:52 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:46:53 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.6ms)
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:46:53 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:46:53 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:46:53 +0000
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:49:32 +0000
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 2591ms (Views: 2590.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-df3d342c84e6d1a2684fc6fd03d3fea5ff59f01a658608d67ffd83774db160c7.css?body=1" for 58.187.67.109 at 2018-10-06 12:49:35 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:49:36 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.6ms)
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:49:36 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:49:36 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:49:36 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:49:36 +0000
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:51:48 +0000
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 112ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "... "font-awesome"": expected selector or at-rule, was "@font-face {"):
+    2: <html>
+    3: <head>
+    4:   <title>Mytravel</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= javascript_include_tag :modernizr %>
+    8:   <%= csrf_meta_tags %>
+  app/assets/stylesheets/style.scss:4
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3922676351828045264_70155876478100'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (47.3ms)
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:52:07 +0000
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (13.4ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "... "font-awesome"": expected selector or at-rule, was "@font-face {"):
+    2: <html>
+    3: <head>
+    4:   <title>Mytravel</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= javascript_include_tag :modernizr %>
+    8:   <%= csrf_meta_tags %>
+  app/assets/stylesheets/style.scss:4
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3922676351828045264_70155876478100'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (39.8ms)
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:52:28 +0000
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 3739ms (Views: 3737.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-92303146e66520f95358624079867b37f8151606eeb939b3b0ee8baf6dcf71fd.css?body=1" for 58.187.67.109 at 2018-10-06 12:52:32 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:52:33 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:52:33 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:52:33 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:52:33 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:52:33 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.1ms)
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:56:15 +0000
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 3191ms (Views: 3190.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-bc68219c8653a2ecf75ccf3c15a099f28face4a850ee1043989562cf9a0b5d92.css?body=1" for 58.187.67.109 at 2018-10-06 12:56:19 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:56:20 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:56:20 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:56:20 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:56:20 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:56:20 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.3ms)
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 12:59:31 +0000
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (3447.1ms)
+Completed 200 OK in 3698ms (Views: 3687.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-9fb940cf42dffe719b20d57d47fb010189cabe9b2896a7d7244b73a06101b8b3.css?body=1" for 58.187.67.109 at 2018-10-06 12:59:36 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 12:59:36 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 12:59:36 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 12:59:37 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 12:59:37 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (21.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.7ms)
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 12:59:37 +0000
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 122ms (Views: 121.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.self-0d7c39731987595ecb949d080a053bb06b8fa4dfd2629475296fd3621e06d782.css?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/flexslider.self-9241b942884554f71fda0cb6d36010fbf8d398154e63310ded733ee9066d5be1.css?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/owl.carousel.self-c45b35ff19e8c91083c2d65b6a35629546efd61bab5850dcefc1deffef0c19c3.css?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/style.self-9fb940cf42dffe719b20d57d47fb010189cabe9b2896a7d7244b73a06101b8b3.css?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/application.self-0f7964febb3f014bf7fcc8c81edec7a8bd416435c7c1c53eb0f8818a95b51419.css?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/jquery.flexslider.self-f462043f9ca6901a831b2a575105723b5b1c6c93c8a554e83427940474c96de3.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/magnific-popup.self-bdc5c9e27ec325cfb8a4f1a864f747ecbd9ea78f2cca1d25295bbfea5e4baa0c.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:00 +0000
+
+
+Started GET "/assets/waypoints/jquery.waypoints.self-35175ba1d1e09c246fa494b7630c1b98043bd66fc4b2376fe5fa25f51a5d18ce.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/waypoints/jquery.waypoints.min.self-78543f516befe63312ed8fcb7a840129d9e9d09c8c831f54bc464076f1e42521.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/waypoints/noframework.waypoints.self-fb8d122124a3910fb4e7c0d5f81fcf8843dbad06427dd29d496ea90afb7de9a3.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/waypoints/noframework.waypoints.min.self-37117fb9f1c67edb653609cbd4b1a7e0ec4d677e7358c4a034034e4fbff62e34.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/waypoints/waypoints.self-e82f96666fb760b031a723ea3fce9ab184c2f63bafdfad2341d93e70a4e9725b.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/waypoints/zepto.waypoints.self-ad8469b01a54c9d0ad57b30a436a130017bed18e7be98ab2c966bd0c02f56e32.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/waypoints/zepto.waypoints.min.self-016382f8daa70d613d940f249ad3037926db725c292480f401a999e6bed349cf.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/owl.carousel.self-41d10f09a67aea1b0190d4de2be559dbcf3833132d095b4a85ceb013777fbc92.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/magnific-popup.self-88ca22f427eb036ac1bf328a84a297e15c0c43e0e7ee9f922b7b5da09bb69583.css?body=1" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/main.self-06a157440407f2067c691f56ae7e7ce692fba1b0f195b41be221eedf5e91f0a7.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/owl.theme.self-189eb8438dca89996934db9a417c7b9c33f6d1ffaabe241812cc74d548452224.css?body=1" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/modernizr.self-654222debe8018b12f1993ceddff30dc163a7d5008d79869c399d6d167321f97.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/application.self-ba159da836afb518b67b26b4b2d8f3b8e9e2eb9092c9e2db25b335f06d608748.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/blog-2-6d292985dab77c9f5c1dd197ca2898a9be26ee16d957455df0d0c231518786b3.jpg" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/blog-1-21dfd9368ac80d66bee70c7883d53e75c7c90f4bf21625724c0244be000f7b3b.jpg" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/blog-3-32b1eda07b60dd09046c506580eab2449e4fee64056c9cbf5a6e6815185f5ad1.jpg" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/blog-4-8c2163c3d9abda51c3d3e4bf42a768d4cb9551784bc78cfa8e85479b3e6b186b.jpg" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/jquery.easing.self-c85028b4485f3b7e91508aa9891cfeb41a8884efd87672715de3fa1ae2173948.js?body=1" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/blog-5-5c01c8104025003ae6996a5c69e9114016079d3e715fe0697bc10b179c78694c.jpg" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/blog-7-484c591d8215b7ad81b5027d0235af869083e7a738a62c12d118d26626a9abae.jpg" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/blog-10-f1b73231712cc0c03e88ab6e65ee4f4d4c7cccd89ed4cbe529b71dc7d27cba04.jpg" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/blog-9-4a9730a40a8886cfcad8c1672a40f333f47c04aee716d2f89a5784ed3d52a0ac.jpg" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/blog-11-8020192a42795ce61064dcf0d47f24021a96c8448a460c1508ac045da6098e2a.jpg" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/blog-8-c066202ff732d6cb0776c639fd4ed2ce03bb112f303b792f40b264247e4ef5c1.jpg" for 58.187.67.109 at 2018-10-06 13:00:01 +0000
+
+
+Started GET "/assets/blog-12-0d6c9a8b3f1b4d6e8d11890f779f4aa6006a36b980896374172edee1c3136da2.jpg" for 58.187.67.109 at 2018-10-06 13:00:02 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 13:00:02 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 13:00:02 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 13:00:02 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 13:00:02 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.1ms)
+
+
+Started GET "/assets/blog-13-36f8908cde41e06d20eee610a597ac634c782320363df366eac4973b28c6e376.jpg" for 58.187.67.109 at 2018-10-06 13:00:02 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 13:00:02 +0000
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 13:01:47 +0000
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 116ms (Views: 115.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 13:01:48 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 13:01:48 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.9ms)
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 13:01:48 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 13:01:48 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 13:01:48 +0000
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 13:02:49 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 3357ms (Views: 3345.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f536feda01c880927129d7eca6bb352c6cf5b0fde83f1a7d99a5eb5a7e72019a.css?body=1" for 58.187.67.109 at 2018-10-06 13:02:53 +0000
+
+
+Started GET "/assets/style.self-918e07d30c8a00346e52b3e05b9706df95c2bb4081732ebeec01b2eacc7cc0fd.css?body=1" for 58.187.67.109 at 2018-10-06 13:02:54 +0000
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 13:02:54 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 13:02:54 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.6ms)
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 13:02:54 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 13:02:54 +0000
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 13:02:55 +0000
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 13:02:55 +0000
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 13:02:55 +0000
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 13:02:55 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 13:02:55 +0000
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 13:02:55 +0000
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 13:02:55 +0000
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 13:02:55 +0000
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 13:02:55 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 13:02:55 +0000
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 13:02:55 +0000
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 13:02:55 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 13:02:55 +0000
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 13:02:55 +0000
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 13:03:49 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 959ms (Views: 948.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7932093b5e201aa7a8aa700d350414e30f5e1cf4678b3d4ec8d279795baed2c5.css?body=1" for 58.187.67.109 at 2018-10-06 13:03:50 +0000
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 13:03:50 +0000
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 13:03:50 +0000
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 13:03:50 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 13:03:50 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.7ms)
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 13:03:50 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 13:03:50 +0000
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 13:03:50 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 13:03:50 +0000
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 13:03:50 +0000
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 13:03:50 +0000
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 13:03:50 +0000
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 13:03:50 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 13:03:50 +0000
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 13:03:50 +0000
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 13:03:51 +0000
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 13:03:51 +0000
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 13:03:51 +0000
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 13:03:51 +0000
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 13:07:04 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 108ms (Views: 107.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 13:07:05 +0000
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 13:07:05 +0000
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 13:07:05 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 13:07:05 +0000
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 13:07:05 +0000
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 13:07:05 +0000
+
+
+Started GET "/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2" for 58.187.67.109 at 2018-10-06 13:07:05 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 13:07:06 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (42.6ms)
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 13:07:06 +0000
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 13:07:06 +0000
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 13:07:06 +0000
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 13:07:06 +0000
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 13:07:06 +0000
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 13:07:06 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 13:07:06 +0000
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 13:07:06 +0000
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 13:07:06 +0000
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 13:07:06 +0000
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 13:07:06 +0000
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 13:09:35 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 13:09:35 +0000
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.1ms)
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 13:09:36 +0000
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 13:09:51 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 139ms (Views: 137.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.0ms)
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 13:09:52 +0000
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 13:10:25 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 122ms (Views: 121.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (58.5ms)
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 13:10:26 +0000
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 13:10:51 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3050ms (Views: 3049.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-9be27aeb2ab528efdc25a096107600abf137de41ef106801c6bcc4d57df9c4e6.css?body=1" for 58.187.67.109 at 2018-10-06 13:10:54 +0000
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 13:10:54 +0000
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 13:10:54 +0000
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 13:10:54 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 13:10:55 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 13:10:55 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (66.4ms)
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 13:10:55 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 13:10:55 +0000
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 13:10:55 +0000
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 13:10:55 +0000
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 13:10:55 +0000
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 13:10:55 +0000
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 13:10:55 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 13:10:55 +0000
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 13:10:55 +0000
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 13:10:55 +0000
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 13:10:55 +0000
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 13:10:55 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 13:10:55 +0000
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 13:11:15 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2571ms (Views: 2570.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-bb4f78d212fa2444f2e0c4478bee112e1593c4f2209e7564a5d68ebefa098e7a.css?body=1" for 58.187.67.109 at 2018-10-06 13:11:18 +0000
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.5ms)
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 13:11:19 +0000
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 13:11:20 +0000
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 13:13:56 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 115ms (Views: 113.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 13:13:57 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 13:13:57 +0000
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 13:13:57 +0000
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 13:13:57 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 13:13:58 +0000
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 13:13:58 +0000
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 13:13:58 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 13:13:58 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.9ms)
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 13:13:58 +0000
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 13:13:58 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 13:13:58 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 13:13:58 +0000
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 13:13:58 +0000
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 13:13:58 +0000
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 13:13:58 +0000
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 13:13:58 +0000
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 13:13:58 +0000
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 13:13:58 +0000
+
+
+Started GET "/style" for 58.187.67.109 at 2018-10-06 13:14:19 +0000
+Processing by HomeController#style as HTML
+  Rendered home/style.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 117ms (Views: 115.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 13:14:19 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 13:14:19 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (133.7ms)
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 13:14:19 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 13:14:19 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 13:14:19 +0000
+
+
+Started GET "/" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 167ms (Views: 166.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-14.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/assets/blog-12.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/assets/blog-11.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/assets/blog-13.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/assets/blog-3.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/assets/blog-1.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/images/loader.gif" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/loader.gif"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.5ms)
+
+
+Started GET "/assets/blog-2.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/assets/img_bg_1.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/assets/img_bg_3.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/assets/img_bg_2.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/assets/blog-10.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/assets/blog-9.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/assets/blog-8.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/assets/blog-7.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/assets/blog-6.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/assets/blog-5.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000
+
+
+Started GET "/assets/blog-4.jpg" for 58.187.67.109 at 2018-10-06 13:14:21 +0000

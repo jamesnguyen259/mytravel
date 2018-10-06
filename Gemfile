@@ -32,7 +32,7 @@ gem 'waypoints_rails'
 gem 'modernizr-rails', '~> 2.7', '>= 2.7.1'
 gem 'owlcarousel-rails', '~> 2.2', '>= 2.2.3.5'
 gem 'stickykit-rails', '~> 1.1', '>= 1.1.2'
-gem 'icomoon-rails', '~> 0.1.0'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
