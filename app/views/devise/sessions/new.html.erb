@@ -1,0 +1,71 @@
+<% provide(:title, "Log in") %>
+
+<% content_for :stylesheet do %>
+	<%= stylesheet_link_tag "login", media: "all" %>
+	<%= stylesheet_link_tag "util", media: "all" %>
+<% end %>
+
+<% content_for :content do %>
+    <div id="colorlib-page">
+		<div id="colorlib-main">
+	    	<div class="limiter">
+  		  		<div class="container-login100">
+  					<div class="wrap-login100 p-l-50 p-r-50 p-t-77 p-b-30">
+		  			  <%= form_for(resource, as: resource_name, url: session_path(resource_name), class: "login100-form") do |f| %>
+			  				<span class="login100-form-title p-b-55">
+			  					Login
+			  				</span>
+			
+			  				<div class="wrap-input100 m-b-16">
+			  				  <%= f.email_field :email, autofocus: true, placeholder: "Email", class: "input100" %>
+			  					<span class="focus-input100"></span>
+			  					<span class="symbol-input100">
+			  						<span class="fa fa-envelope"></span>
+			  					</span>
+			  				</div>
+			
+			  				<div class="wrap-input100 m-b-16">
+			  				  <%= f.password_field :password, placeholder: "Password", class: "input100" %>
+			  					<span class="focus-input100"></span>
+			  					<span class="symbol-input100">
+			  						<span class="fa fa-lock"></span>
+			  					</span>
+			  				</div>
+			
+				            <% if devise_mapping.rememberable? -%>
+								<div class="contact100-form-checkbox m-l-4">
+								  <%= f.check_box :remember_me, class: "input-checkbox100" %>
+								  <%= f.label :remember_me, class: "label-checkbox100" %>
+								</div>
+			  				<% end -%>
+			  				
+			  				<div class="container-login100-form-btn p-t-25">
+			  				  <%= f.submit "Log in", class: "login100-form-btn" %>
+			  				</div>
+			
+			  				<div class="text-center w-full p-t-42 p-b-22">
+			  					<span class="txt1">
+			  						Or login with
+			  					</span>
+			  				</div>
+			
+			  				<a href="#" class="btn-face m-b-10 m-l-90">
+			  					<i class="fa fa-facebook-official"></i>
+			  					Facebook
+			  				</a>
+			
+			  				<div class="text-center w-full p-t-115">
+			  					<span class="txt1">
+			  						Not a member?
+			  					</span>
+				  
+				              <%= link_to "Sign up now", new_user_registration_path, class: "txt1 bo1 hov1" %>
+			  				</div>
+				        <% end %>
+	  				</div>
+	  			</div>
+		  	</div>
+		</div>			
+	</div>
+<% end %>
+
