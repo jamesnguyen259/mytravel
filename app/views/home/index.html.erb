@@ -1,247 +1,96 @@
 <% provide(:title, "Home") %>
-<% content_for :content do%>
-    <div id="colorlib-page">
-		<div id="colorlib-main">
-			<aside id="colorlib-hero" class="js-fullheight">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(/assets/img_bg_1.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc">
-					   						<p class="tag"><span>Style</span></p>
-						   					<h1><a href="#">Strategic Design for Brands</a></h1>
-						   					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(/assets/img_bg_2.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc">
-					   						<p class="tag"><span>Sports</span></p>
-						   					<h1><a href="#">Creators of Brands Template</a></h1>
-												<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(/assets/img_bg_3.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc">
-					   						<p class="tag"><span>Fashion</span></p>
-						   					<h1><a href="#">Design &amp; develop functional sites</a></h1>
-												<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</aside>
 
-			<div class="colorlib-blog">
-				<div class="container-wrap">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="blog-entry animate-box">
-								<div class="blog-img" style="background-image: url(/assets/blog-1.jpg);">
-									<div class="desc text-center">
-										<p class="tag"><span>Nature</span></p>
-										<h2 class="head-article"><a href="single.html">Gym Fitness</a></h2>
-										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
+<% content_for :content do%>
+    <div id="colorlib-main">
+		<div class="colorlib-blog">
+			<div class="container-wrap">
+				<div class="row">
+					<div class="col-md-9">
+						<div class="content-wrap">
+							<% @place_reviews.each do |place| %>
+								<article class="animate-box">
+									<div class="blog-img" style="background-image: url(/assets/<%= place.place_pictures.first.picture %>);"></div>
+									<div class="desc">
+										<div class="meta">
+											<p>
+												<span><%= place.address.name %></span>
+												<span><%= place.user.name %></span>
+												<span><%= place.created_at.strftime("%d %b %Y") %></span>
+											</p>
+										</div>
+										<h2><%= link_to place.place_name, "#" %></h2>
+										<p><%= place.review_content[0..250] %>...</p>
+										<p><a href="#" class="btn btn-primary with-arrow">Read More <i class="icon-arrow-right22"></i></a></p>
 									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
+								</article>
+							<% end %>
 							<div class="row">
-								<div class="col-md-6">
-									<div class="blog-entry animate-box">
-										<div class="blog-img blog-img2" style="background-image: url(/assets/blog-2.jpg);">
-											<div class="desc text-center">
-												<p class="tag"><span>auto</span></p>
-												<h2 class="head-article"><a href="single.html">BMW i8</a></h2>
-												<p>Even the all-powerful Pointing has no control about</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="blog-entry animate-box">
-										<div class="blog-img blog-img2" style="background-image: url(/assets/blog-3.jpg);">
-											<div class="desc text-center">
-												<p class="tag"><span>Sports</span></p>
-												<h2 class="head-article"><a href="single.html">Boxing Sports</a></h2>
-												<p>Even the all-powerful Pointing has no control about</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="blog-entry animate-box">
-										<div class="blog-img blog-img2" style="background-image: url(/assets/blog-4.jpg);">
-											<div class="desc text-center">
-												<p class="tag"><span>Place</span></p>
-												<h2 class="head-article"><a href="single.html">Nature</a></h2>
-												<p>Even the all-powerful Pointing has no control about</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="blog-entry animate-box">
-								<div class="blog-img" style="background-image: url(/assets/blog-5.jpg);">
-									<div class="desc text-center">
-										<p class="tag"><span>Sports</span></p>
-										<h2 class="head-article"><a href="single.html">Surfing</a></h2>
-										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="blog-entry animate-box">
-								<div class="blog-img" style="background-image: url(/assets/blog-6.jpg);">
-									<div class="desc text-center">
-										<p class="tag"><span>Movies</span></p>
-										<h2 class="head-article"><a href="single.html">Liam Neeson</a></h2>
-										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="blog-entry animate-box">
-								<div class="blog-img" style="background-image: url(/assets/blog-7.jpg);">
-									<div class="desc text-center">
-										<p class="tag"><span>Movies</span></p>
-										<h2 class="head-article"><a href="single.html">John Wick</a></h2>
-										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-5">
-							<div class="blog-entry animate-box">
-								<div class="blog-img" style="background-image: url(/assets/blog-8.jpg);">
-									<div class="desc text-center">
-										<p class="tag"><span>Sports</span></p>
-										<h2 class="head-article"><a href="single.html">Boxing Sports</a></h2>
-										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-7">
-							<div class="row">
-								<div class="col-md-12">
-									<div class="blog-entry animate-box">
-										<div class="blog-img blog-img2" style="background-image: url(/assets/blog-9.jpg);">
-											<div class="desc text-center">
-												<p class="tag"><span>Place</span></p>
-												<h2 class="head-article"><a href="single.html">Nature</a></h2>
-												<p>Even the all-powerful Pointing has no control about</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="blog-entry animate-box">
-										<div class="blog-img blog-img2" style="background-image: url(/assets/blog-10.jpg);">
-											<div class="desc text-center">
-												<p class="tag"><span>Place</span></p>
-												<h2 class="head-article"><a href="single.html">Nature</a></h2>
-												<p>Even the all-powerful Pointing has no control about</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="blog-entry animate-box">
-										<div class="blog-img blog-img2" style="background-image: url(/assets/blog-11.jpg);">
-											<div class="desc text-center">
-												<p class="tag"><span>auto</span></p>
-												<h2 class="head-article"><a href="single.html">BMW i8</a></h2>
-												<p>Even the all-powerful Pointing has no control about</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="blog-entry animate-box">
-										<div class="blog-img blog-img2" style="background-image: url(/assets/blog-12.jpg);">
-											<div class="desc text-center">
-												<p class="tag"><span>Sports</span></p>
-												<h2 class="head-article"><a href="single.html">Boxing Sports</a></h2>
-												<p>Even the all-powerful Pointing has no control about</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="blog-entry animate-box">
-										<div class="blog-img blog-img2" style="background-image: url(/assets/blog-13.jpg);">
-											<div class="desc text-center">
-												<p class="tag"><span>Place</span></p>
-												<h2 class="head-article"><a href="single.html">Nature</a></h2>
-												<p>Even the all-powerful Pointing has no control about</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="blog-entry animate-box">
-								<div class="blog-img" style="background-image: url(/assets/blog-14.jpg);">
-									<div class="desc text-center">
-										<p class="tag"><span>Healthy</span></p>
-										<h2 class="head-article"><a href="single.html">Gym Fitness</a></h2>
-										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="digg_pagination">
+										<%= will_paginate @place_reviews %>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<ul class="pagination">
-								<li class="disabled"><a href="#">&laquo;</a></li>
-								<li class="active"><a href="#">1</a></li>
-								<li><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
-								<li><a href="#">&raquo;</a></li>
-							</ul>
+					<div class="col-md-3 sticky-parent">
+						<div class="sidebar" id="sticky_item">
+							<div class="side animate-box">
+								<div class="form-group">
+									<input type="text" class="form-control" id="search" placeholder="Enter to search...">
+									<button type="submit" class="btn submit btn-primary"><i class="fa fa-search"></i></button>
+								</div>
+							</div>
+							<div class="side animate-box">
+								<h2 class="sidebar-heading">Popular address</h2>
+								<p>
+									<ul class="category">
+										<% @popular_address.each do |address| %>
+											<li>
+												<%= link_to '#' do %>
+												  <i class="fa fa-check"></i><%= address.name %>
+												<% end %>
+											</li>
+										<% end %>
+									</ul>
+								</p>
+							</div>
+							<div class="side animate-box">
+								<h2 class="sidebar-heading">Recent Blog</h2>
+								<% @recent_reviews.each do |review| %>
+									<div class="f-blog">
+										<a href="#" class="blog-img" style="background-image: url(/assets/<%= review.place_pictures.first.picture %>);">
+										</a>
+										<div class="desc">
+											<h3><%= link_to review.place_name, "#" %></h3>
+											<p class="admin"><span><%= review.created_at.strftime("%d %b %Y") %></span></p>
+										</div>
+									</div>
+								<% end %>
+							</div>
+							<div class="side animate-box">
+								<h2 class="sidebar-heading">Most viewed</h2>
+								<% @most_viewed.each do |review| %>
+									<div class="f-blog">
+										<a href="#" class="blog-img" style="background-image: url(/assets/<%= review.place_pictures.first.picture %>);">
+										</a>
+										<div class="desc">
+											<h3><%= link_to review.place_name, "#" %></h3>
+											<p class="admin"><span><%= review.created_at.strftime("%d %b %Y") %></span></p>
+										</div>
+									</div>
+								<% end %>
+							</div>
+							<div class="side animate-box">
+								<div class="form-group">
+									<input type="text" class="form-control form-email text-center" id="email" placeholder="Enter your email">
+									<button type="submit" class="btn btn-primary btn-subscribe">Subscribe</button>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 	</div>
 <% end %>
