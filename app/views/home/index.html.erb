@@ -18,9 +18,11 @@
 												<span><%= place.created_at.strftime("%d %b %Y") %></span>
 											</p>
 										</div>
-										<h2><%= link_to place.place_name, "#" %></h2>
+										<h2><%= link_to place.place_name, place_path(place.id)  %></h2>
 										<p><%= place.review_content[0..250] %>...</p>
-										<p><a href="#" class="btn btn-primary with-arrow">Read More <i class="icon-arrow-right22"></i></a></p>
+										<p><%= link_to place_path(place.id), class:"btn btn-primary with-arrow" do %>
+											Read More <i class="fa fa-angle-double-right"></i>
+										<% end %></p>
 									</div>
 								</article>
 							<% end %>
@@ -47,8 +49,8 @@
 									<ul class="category">
 										<% @popular_address.each do |address| %>
 											<li>
-												<%= link_to '#' do %>
-												  <i class="fa fa-check"></i><%= address.name %>
+												<%= link_to address_path(address.id) do %>
+												  <i class="fa fa-star"></i><%= address.name %>
 												<% end %>
 											</li>
 										<% end %>
@@ -59,10 +61,10 @@
 								<h2 class="sidebar-heading">Recent Blog</h2>
 								<% @recent_reviews.each do |review| %>
 									<div class="f-blog">
-										<a href="#" class="blog-img" style="background-image: url(/assets/<%= review.place_pictures.first.picture %>);">
+										<a href="<%= place_path(review.id) %>" class="blog-img" style="background-image: url(/assets/<%= review.place_pictures.first.picture %>);">
 										</a>
 										<div class="desc">
-											<h3><%= link_to review.place_name, "#" %></h3>
+											<h3><%= link_to review.place_name, place_path(review.id) %></h3>
 											<p class="admin"><span><%= review.created_at.strftime("%d %b %Y") %></span></p>
 										</div>
 									</div>
@@ -72,10 +74,10 @@
 								<h2 class="sidebar-heading">Most viewed</h2>
 								<% @most_viewed.each do |review| %>
 									<div class="f-blog">
-										<a href="#" class="blog-img" style="background-image: url(/assets/<%= review.place_pictures.first.picture %>);">
+										<a href="<%= place_path(review.id) %>" class="blog-img" style="background-image: url(/assets/<%= review.place_pictures.first.picture %>);">
 										</a>
 										<div class="desc">
-											<h3><%= link_to review.place_name, "#" %></h3>
+											<h3><%= link_to review.place_name, place_path(review.id) %></h3>
 											<p class="admin"><span><%= review.created_at.strftime("%d %b %Y") %></span></p>
 										</div>
 									</div>

@@ -1,0 +1,66 @@
+<% provide(:title, @address.name) %>
+
+<% content_for :content do%>
+    <div id="colorlib-main">
+		<div class="colorlib-blog">
+			<div class="container-wrap">
+				<div class="row">
+					<div class="col-md-9">
+						<div class="content-wrap">
+						    <% @reviews.each do |post| %>
+    							<article class="blog-entry-travel animate-box">
+    								<div class="blog-img" style="background-image: url(/assets/<%= post.place_pictures.first.picture %>);"></div>
+    								<div class="desc">
+    									<p class="meta">
+    										<span class="cat"><%= link_to post.address.name, address_path(post.address.id) %></span>
+    										<span class="date"><%= post.created_at.strftime("%d %b %Y") %></span>
+    										<span class="pos">By <%= link_to post.user.name, "#" %></span>
+    									</p>
+    									<h2><%= link_to post.place_name, place_path(post.id) %></h2>
+    									<p><%= post.review_content[0..200] %>...</p>
+										<p><%= link_to place_path(post.id), class:"btn btn-primary with-arrow" do %>
+											Read More <i class="fa fa-angle-double-right"></i>
+										<% end %></p>
+    								</div>
+    							</article>
+							<% end %>
+							<div class="row">
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="digg_pagination">
+										<%= will_paginate @reviews %>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="sidebar">
+							<div class="side animate-box">
+								<div class="form-group">
+									<input type="text" class="form-control" id="search" placeholder="Enter to search...">
+									<button type="submit" class="btn submit btn-primary"><i class="fa fa-search"></i></button>
+								</div>
+							</div>
+							<div class="side animate-box">
+								<h2 class="sidebar-heading">Reviewed address</h2>
+								<p>
+									<ul class="category">
+										<% @addresses.each do |address| %>
+											<% if address.places.count > 0 %>
+												<li>
+													<%= link_to address_path(address.id) do %>
+													  <i class="fa fa-check"></i><%= address.name %>
+													<% end %>
+												</li>
+											<% end %>
+										<% end %>
+									</ul>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<% end %>
