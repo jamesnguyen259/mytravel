@@ -34,6 +34,8 @@ gem 'owlcarousel-rails', '~> 2.2', '>= 2.2.3.5'
 gem 'stickykit-rails', '~> 1.1', '>= 1.1.2'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 
+gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
