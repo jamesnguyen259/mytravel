@@ -7,18 +7,18 @@
 				<div class="row">
 					<div class="col-md-9">
 						<div class="content-wrap">
-						    <% @reviews.each do |post| %>
+						    <% @reviews.each do |review| %>
     							<article class="blog-entry-travel animate-box">
-    								<div class="blog-img" style="background-image: url(/assets/<%= post.place_pictures.first.picture %>);"></div>
+    								<div class="blog-img" style="background-image: url(/assets/<%= review.place_pictures.first.picture %>);"></div>
     								<div class="desc">
     									<p class="meta">
-    										<span class="cat"><%= link_to post.address.name, address_path(post.address.id) %></span>
-    										<span class="date"><%= post.created_at.strftime("%d %b %Y") %></span>
-    										<span class="pos">By <%= link_to post.user.name, "#" %></span>
+    										<span class="cat"><%= link_to review.address.name, address_path(review.address.id) %></span>
+    										<span class="date"><%= review.created_at.strftime("%d %b %Y") %></span>
+    										<span class="pos">By <%= link_to review.user.name, user_path(review.user.id) %></span>
     									</p>
-    									<h2><%= link_to post.place_name, place_path(post.id) %></h2>
-    									<p><%= post.review_content[0..200] %>...</p>
-										<p><%= link_to place_path(post.id), class:"btn btn-primary with-arrow" do %>
+    									<h2><%= link_to review.place_name, place_path(review.id) %></h2>
+    									<p><%= review.review_content[0..200] %>...</p>
+										<p><%= link_to place_path(review.id), class:"btn btn-primary with-arrow" do %>
 											Read More <i class="fa fa-angle-double-right"></i>
 										<% end %></p>
     								</div>

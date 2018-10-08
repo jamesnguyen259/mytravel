@@ -40570,3 +40570,719 @@ ActionController::RoutingError (No route matches [GET] "/places/images/person1.j
   Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.2ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.1ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (169.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to AddViewsNumberToPlaces (20181007055354)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TEMPORARY TABLE "aplaces" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "place_name" varchar, "review_content" varchar, "address_id" integer, "user_id" integer, "created_at" datetime, "updated_at" datetime, "views_number" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "places"[0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "aplaces" ("id","place_name","review_content","address_id","user_id","created_at","updated_at","views_number") VALUES (1, 'Tam Đảo', 'Tam Đảo rất bé nên mọi chỗ tham quan chỉ trong tầm 1km, đi bộ là có thể tới hết tất cả nhé. Tất cả các điểm đều có biển chỉ dẫn.
+        Tháp truyền hình
+        – Để lên được tới tháp ngắm toàn cảnh thì phải leo lên 1000 bậc thang ,hai bên là cây cối hữu tình, nhưng Na chỉ leo đc tầm 300 bậc thôi là đi xuống vì đi không nổi.
+        Đền bà chúa Thượng Ngàn
+        – Cùng đường với tháp truyền hình nhé, lên đc chùa thì leo tầm 100 bậc thang thôi nên Na leo lên tới nơi, hai bên là rừng tre trúc lên hình đẹp lắm.
+        Thác Bạc
+        – Gần trung tâm luôn, xuống thác tầm 100 bậc thì sẽ tới, thác nước tầm 50m ,cảnh xung quanh là mây bao phủ nhìn thích lắm
+        – Trên đường xuống thác sẽ cho thuê dép tổ ong đi xuống khỏi ướt dép, 1000 đồng /1 đôi thôi nhé
+        – Nhiều quán nước hai bên để nghỉ chân, trái dừa ở đây 45k
+        Cổng Trời
+        – Ngay sát chợ đối diện quán rock cf. Lên cổng trời có thể quan sát được toàn cảnh Tam Đảo, là nơi để sống ảo.
+        Nhà thờ Đá Cổ
+        – Nằm chung chỗ với cổng trời nhé.
+        – Ngoài ra các bạn có thể đi rừng quốc gia Tam Đảo nhé.', 17, 1, '2018-10-07 06:04:11.921531', '2018-10-07 06:04:11.921531', 13)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aplaces" ("id","place_name","review_content","address_id","user_id","created_at","updated_at","views_number") VALUES (2, 'Đà Nẵng', 'Ở đâu ở Đà Nẵng : ở Đà Nẵng có rất rất nhiều khách sạn và homestay và nhiều mức giá khác nhau.
+        Mình thì thích ở trên đường Phạm Văn Đồng, con đường này hầu như chỉ toàn là khách sạn dọc 2 bên đường, vị trí khá đẹp vì gần biển Mỹ Khê có 500m, gần cầu Sông Hàn 500m, gần Cầu Rồng 1Km, và gần luôn nhà ga 1Km.
+        Vẫn book trên booking.com cho giá nó rẻ.
+        - Di chuyển ở Đà Nẵng thì mình vẫn thích đi xe máy hơn, thuê 100K/ngày vừa rẻ mà lại vi vu thoải mái, đi taxi thì bất tiện quá.
+        --------------
+        TRẢI NGHIỆM GÌ Ở ĐÀ NẴNG ? 
+        Đà Nẵng rất ư đầu tư cho du lịch, mọi địa điểm hầu như luôn hướng tới khách du lịch.
+        Bạn có thể ghé qua những địa điểm sau :
+        1. Bà Nà Hills : Đây chắc là địa điểm đứng đầu rồi, vé 600K/người : mà thấy lúc nào cũng đông, mỗi ngày tầm 8,000 ~ 10,000 người lên đây, con số kinh khủng đúng không.
+        Nhưng thực sự, ông chủ ở đây rất biết đầu tư cho du lịch.
+        2. Bãi biển Mỹ Khê : 1 trong 10 bãi biển quyến rũ nhất hành tinh, bãi biển đẳng cấp quốc tế, cực sạch.
+        3. Cầu khoá tình yêu : đường Trần Hưng Đạo
+        4. Đèo Hải Vân ( xa trung tâm ) : nhưng nên đi đông người.
+        5. Cầu sông Hàn : cầu xoay được.
+        6. Chùa Linh Ứng 
+        7. Vòng quay mặt trời
+        8. Bán đảo Sơn Trà 
+        9. Cầu Rồng ( phun nước và phun lửa vào mỗi 9h đêm thứ 7 và chủ nhật
+        10. Cung thiếu nhi Đà Nẵng 
+        11. Công viên Châu Á 
+        13. Ngũ hành sơn ( cách trung tâm thành phố ĐN 7km) 
+        14. Du thuyền dọc sông Hàn vào buổi đêm
+        15. Chợ đêm Hội An (gần cung thiếu nhi) : nhưng chỉ diễn ra vào chủ nhật (khoảng 1~2 tuần/lần)', 32, 2, '2018-10-07 06:04:11.933345', '2018-10-07 06:04:11.933345', 4)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aplaces" ("id","place_name","review_content","address_id","user_id","created_at","updated_at","views_number") VALUES (3, 'Biển Lăng Cô', 'Điểm tham quan
+        Đi biển thì tất nhiên tắm biển là số một rồi, nhất là với một bãi biển đẹp thuần khiết như ở Lăng Cô. Thế nhưng cũng thật tiếc nếu bạn bỏ lỡ một số điểm thú vị sau khi ở Lăng Cô:
+        - Có thể đi chợ bằng xe ôm, hoặc thuê xe máy ở lễ tân các khu resort. Ở đó có thể mua tông Lào, quần áo, thắt lưng đánh từ Lào về, khá rẻ. Sau đó bạn nên dạo xe máy trên cung đường du lịch ven đầm Lập An, một bên đầm một bên núi sẽ rất thi vị và có những kỷ niệm không bao giờ quên. Tha hồ chụp ảnh và ngắm cảnh. Đầm này đáy toàn là vỏ trai ốc, không có bùn, nên lội ra rất xa cũng chỉ đến bắp chân thôi, nước trong vắt.
+        - Bãi biển Chân Mây: bãi Chân Mây bằng phẳng kéo dài hình vòng cung, cát trắng và sóng hiền hòa, cách quốc lộ 1A chỉ gần 3km. Bãi tắm ở đây rất đẹp tuy nhiên nếu tắm ở đây bạn phải lưu ý sẽ không có người cứu hộ túc trực, không có hệ thống cảnh báo nguy hiểm.
+        - Đèo Hải Vân: Bắt đầu từ Hải Vân Quan, địa phận của tỉnh Thừa Thiên Huế trên đèo Hải Vân, kéo dài đến vườn quốc gia Bạch Mã chỉ vỏn vẹn chưa đầy 60km nhưng bảo đảm bạn sẽ ngất ngây với những gì trước mắt. Đổ đèo Hải Vân, bạn có thể quan sát vịnh Lăng Cô, đường dẫn vào hầm Hải Vân từ trên cao.
+        Chạy hết đèo, bạn sẽ đến ngã ba để ra quốc lộ 1A, tuy nhiên, bạn không nên chạy đường này mà hãy rẽ trái vào đường Nguyễn Văn để có thể ngắm toàn cảnh đầm Lập An vô cùng đẹp và thơ mộng. Trên đường có nhiều quán hải sản được dựng ngay trên đầm, bạn có thể nghỉ chân vừa thưởng thức hải sản, vừa ngắm cảnh rất tuyệt vời.
+        - Vườn quốc gia Bạch Mã: Cách Lăng Cô khoảng 30 km về phía Tây, Bạch Mã nổi tiếng có khí hậu mát mẻ. Nhiệt độ chưa bao giờ dưới 4 độ C và cao hơn 26 độ C. Tại đây, bạn có thể dạo bộ thưởng thức không khí của núi rừng bạch mã, thăm quan cụm thác Ngũ Hổ, thác Đỗ Quyền, chinh phục đỉnh Bạch Mã, tham quan Vọng Hải Đài 
+        (từ đây chiêm ngưỡng toàn cảnh vịnh Chân Mây và đầm Cầu Hai).', 31, 2, '2018-10-07 06:04:11.941915', '2018-10-07 06:04:11.941915', 60)
+  [1m[36m (0.4ms)[0m  [1mDROP TABLE "places"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "places" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "place_name" varchar, "review_content" varchar, "address_id" integer, "user_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "aplaces"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "places" ("id","place_name","review_content","address_id","user_id","created_at","updated_at") VALUES (1, 'Tam Đảo', 'Tam Đảo rất bé nên mọi chỗ tham quan chỉ trong tầm 1km, đi bộ là có thể tới hết tất cả nhé. Tất cả các điểm đều có biển chỉ dẫn.
+        Tháp truyền hình
+        – Để lên được tới tháp ngắm toàn cảnh thì phải leo lên 1000 bậc thang ,hai bên là cây cối hữu tình, nhưng Na chỉ leo đc tầm 300 bậc thôi là đi xuống vì đi không nổi.
+        Đền bà chúa Thượng Ngàn
+        – Cùng đường với tháp truyền hình nhé, lên đc chùa thì leo tầm 100 bậc thang thôi nên Na leo lên tới nơi, hai bên là rừng tre trúc lên hình đẹp lắm.
+        Thác Bạc
+        – Gần trung tâm luôn, xuống thác tầm 100 bậc thì sẽ tới, thác nước tầm 50m ,cảnh xung quanh là mây bao phủ nhìn thích lắm
+        – Trên đường xuống thác sẽ cho thuê dép tổ ong đi xuống khỏi ướt dép, 1000 đồng /1 đôi thôi nhé
+        – Nhiều quán nước hai bên để nghỉ chân, trái dừa ở đây 45k
+        Cổng Trời
+        – Ngay sát chợ đối diện quán rock cf. Lên cổng trời có thể quan sát được toàn cảnh Tam Đảo, là nơi để sống ảo.
+        Nhà thờ Đá Cổ
+        – Nằm chung chỗ với cổng trời nhé.
+        – Ngoài ra các bạn có thể đi rừng quốc gia Tam Đảo nhé.', 17, 1, '2018-10-07 06:04:11.921531', '2018-10-07 06:04:11.921531')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "places" ("id","place_name","review_content","address_id","user_id","created_at","updated_at") VALUES (2, 'Đà Nẵng', 'Ở đâu ở Đà Nẵng : ở Đà Nẵng có rất rất nhiều khách sạn và homestay và nhiều mức giá khác nhau.
+        Mình thì thích ở trên đường Phạm Văn Đồng, con đường này hầu như chỉ toàn là khách sạn dọc 2 bên đường, vị trí khá đẹp vì gần biển Mỹ Khê có 500m, gần cầu Sông Hàn 500m, gần Cầu Rồng 1Km, và gần luôn nhà ga 1Km.
+        Vẫn book trên booking.com cho giá nó rẻ.
+        - Di chuyển ở Đà Nẵng thì mình vẫn thích đi xe máy hơn, thuê 100K/ngày vừa rẻ mà lại vi vu thoải mái, đi taxi thì bất tiện quá.
+        --------------
+        TRẢI NGHIỆM GÌ Ở ĐÀ NẴNG ? 
+        Đà Nẵng rất ư đầu tư cho du lịch, mọi địa điểm hầu như luôn hướng tới khách du lịch.
+        Bạn có thể ghé qua những địa điểm sau :
+        1. Bà Nà Hills : Đây chắc là địa điểm đứng đầu rồi, vé 600K/người : mà thấy lúc nào cũng đông, mỗi ngày tầm 8,000 ~ 10,000 người lên đây, con số kinh khủng đúng không.
+        Nhưng thực sự, ông chủ ở đây rất biết đầu tư cho du lịch.
+        2. Bãi biển Mỹ Khê : 1 trong 10 bãi biển quyến rũ nhất hành tinh, bãi biển đẳng cấp quốc tế, cực sạch.
+        3. Cầu khoá tình yêu : đường Trần Hưng Đạo
+        4. Đèo Hải Vân ( xa trung tâm ) : nhưng nên đi đông người.
+        5. Cầu sông Hàn : cầu xoay được.
+        6. Chùa Linh Ứng 
+        7. Vòng quay mặt trời
+        8. Bán đảo Sơn Trà 
+        9. Cầu Rồng ( phun nước và phun lửa vào mỗi 9h đêm thứ 7 và chủ nhật
+        10. Cung thiếu nhi Đà Nẵng 
+        11. Công viên Châu Á 
+        13. Ngũ hành sơn ( cách trung tâm thành phố ĐN 7km) 
+        14. Du thuyền dọc sông Hàn vào buổi đêm
+        15. Chợ đêm Hội An (gần cung thiếu nhi) : nhưng chỉ diễn ra vào chủ nhật (khoảng 1~2 tuần/lần)', 32, 2, '2018-10-07 06:04:11.933345', '2018-10-07 06:04:11.933345')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "places" ("id","place_name","review_content","address_id","user_id","created_at","updated_at") VALUES (3, 'Biển Lăng Cô', 'Điểm tham quan
+        Đi biển thì tất nhiên tắm biển là số một rồi, nhất là với một bãi biển đẹp thuần khiết như ở Lăng Cô. Thế nhưng cũng thật tiếc nếu bạn bỏ lỡ một số điểm thú vị sau khi ở Lăng Cô:
+        - Có thể đi chợ bằng xe ôm, hoặc thuê xe máy ở lễ tân các khu resort. Ở đó có thể mua tông Lào, quần áo, thắt lưng đánh từ Lào về, khá rẻ. Sau đó bạn nên dạo xe máy trên cung đường du lịch ven đầm Lập An, một bên đầm một bên núi sẽ rất thi vị và có những kỷ niệm không bao giờ quên. Tha hồ chụp ảnh và ngắm cảnh. Đầm này đáy toàn là vỏ trai ốc, không có bùn, nên lội ra rất xa cũng chỉ đến bắp chân thôi, nước trong vắt.
+        - Bãi biển Chân Mây: bãi Chân Mây bằng phẳng kéo dài hình vòng cung, cát trắng và sóng hiền hòa, cách quốc lộ 1A chỉ gần 3km. Bãi tắm ở đây rất đẹp tuy nhiên nếu tắm ở đây bạn phải lưu ý sẽ không có người cứu hộ túc trực, không có hệ thống cảnh báo nguy hiểm.
+        - Đèo Hải Vân: Bắt đầu từ Hải Vân Quan, địa phận của tỉnh Thừa Thiên Huế trên đèo Hải Vân, kéo dài đến vườn quốc gia Bạch Mã chỉ vỏn vẹn chưa đầy 60km nhưng bảo đảm bạn sẽ ngất ngây với những gì trước mắt. Đổ đèo Hải Vân, bạn có thể quan sát vịnh Lăng Cô, đường dẫn vào hầm Hải Vân từ trên cao.
+        Chạy hết đèo, bạn sẽ đến ngã ba để ra quốc lộ 1A, tuy nhiên, bạn không nên chạy đường này mà hãy rẽ trái vào đường Nguyễn Văn để có thể ngắm toàn cảnh đầm Lập An vô cùng đẹp và thơ mộng. Trên đường có nhiều quán hải sản được dựng ngay trên đầm, bạn có thể nghỉ chân vừa thưởng thức hải sản, vừa ngắm cảnh rất tuyệt vời.
+        - Vườn quốc gia Bạch Mã: Cách Lăng Cô khoảng 30 km về phía Tây, Bạch Mã nổi tiếng có khí hậu mát mẻ. Nhiệt độ chưa bao giờ dưới 4 độ C và cao hơn 26 độ C. Tại đây, bạn có thể dạo bộ thưởng thức không khí của núi rừng bạch mã, thăm quan cụm thác Ngũ Hổ, thác Đỗ Quyền, chinh phục đỉnh Bạch Mã, tham quan Vọng Hải Đài 
+        (từ đây chiêm ngưỡng toàn cảnh vịnh Chân Mây và đầm Cầu Hai).', 31, 2, '2018-10-07 06:04:11.941915', '2018-10-07 06:04:11.941915')
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "aplaces"[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?  [["version", "20181007055354"]]
+  [1m[36m (14.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddViewsNumberToPlaces (20181007055354)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "places" ADD "views_number" integer DEFAULT 0 NOT NULL[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20181007055354"]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (10.3ms)[0m  DELETE FROM "addresses";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (7.1ms)[0m  DELETE FROM sqlite_sequence where name = 'addresses';
+  [1m[36m (7.6ms)[0m  [1mDELETE FROM "place_pictures";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (7.5ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'place_pictures';[0m
+  [1m[35m (8.2ms)[0m  DELETE FROM "places";
+  [1m[36m (0.3ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (6.1ms)[0m  DELETE FROM sqlite_sequence where name = 'places';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Hà Nội"]]
+  [1m[36m (9.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Hà Giang"]]
+  [1m[35m (9.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Cao Bằng"]]
+  [1m[36m (6.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Bắc Kạn"]]
+  [1m[35m (7.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Tuyên Quang"]]
+  [1m[36m (9.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Lào Cai"]]
+  [1m[35m (9.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Điện Biên"]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Lai Châu"]]
+  [1m[35m (8.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Sơn La"]]
+  [1m[36m (8.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Yên Bái"]]
+  [1m[35m (8.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Hòa Bình"]]
+  [1m[36m (6.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Thái Nguyên"]]
+  [1m[35m (9.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Lạng Sơn"]]
+  [1m[36m (8.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Quảng Ninh"]]
+  [1m[35m (9.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Bắc Giang"]]
+  [1m[36m (9.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Phú Thọ"]]
+  [1m[35m (8.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Vĩnh Phúc"]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Bắc Ninh"]]
+  [1m[35m (10.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Hải Dương"]]
+  [1m[36m (9.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Hải Phòng"]]
+  [1m[35m (6.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Hưng Yên"]]
+  [1m[36m (9.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Thái Bình"]]
+  [1m[35m (7.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Hà Nam"]]
+  [1m[36m (9.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Nam Định"]]
+  [1m[35m (7.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Ninh Bình"]]
+  [1m[36m (10.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Thanh Hóa"]]
+  [1m[35m (9.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Nghệ An"]]
+  [1m[36m (7.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Hà Tĩnh"]]
+  [1m[35m (10.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Quảng Bình"]]
+  [1m[36m (10.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Quảng Trị"]]
+  [1m[35m (10.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Thừa Thiên Huế"]]
+  [1m[36m (10.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Đà Nẵng"]]
+  [1m[35m (10.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Quảng Nam"]]
+  [1m[36m (10.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Quảng Ngãi"]]
+  [1m[35m (9.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Bình Định"]]
+  [1m[36m (11.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Phú Yên"]]
+  [1m[35m (12.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Khánh Hòa"]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Ninh Thuận"]]
+  [1m[35m (9.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Bình Thuận"]]
+  [1m[36m (9.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Kon Tum"]]
+  [1m[35m (7.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Gia Lai"]]
+  [1m[36m (10.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Đắk Lắk"]]
+  [1m[35m (12.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Đắk Nông"]]
+  [1m[36m (10.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Lâm Đồng"]]
+  [1m[35m (10.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Bình Phước"]]
+  [1m[36m (10.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Tây Ninh"]]
+  [1m[35m (10.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Bình Dương"]]
+  [1m[36m (9.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Đồng Nai"]]
+  [1m[35m (9.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Bà Rịa - Vũng Tàu"]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Hồ Chí Minh"]]
+  [1m[35m (10.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Long An"]]
+  [1m[36m (9.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Tiền Giang"]]
+  [1m[35m (10.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Bến Tre"]]
+  [1m[36m (10.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Trà Vinh"]]
+  [1m[35m (13.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Vĩnh Long"]]
+  [1m[36m (11.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Đồng Tháp"]]
+  [1m[35m (11.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "An Giang"]]
+  [1m[36m (11.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Kiên Giang"]]
+  [1m[35m (10.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Cần Thơ"]]
+  [1m[36m (10.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Hậu Giang"]]
+  [1m[35m (10.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Sóc Trăng"]]
+  [1m[36m (10.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Bạc Liêu"]]
+  [1m[35m (10.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Cà Mau"]]
+  [1m[36m (9.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "addresses"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "places" ("place_name", "review_content", "address_id", "user_id", "views_number", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["place_name", "Tam Đảo"], ["review_content", "Tam Đảo rất bé nên mọi chỗ tham quan chỉ trong tầm 1km, đi bộ là có thể tới hết tất cả nhé. Tất cả các điểm đều có biển chỉ dẫn.\n        Tháp truyền hình\n        – Để lên được tới tháp ngắm toàn cảnh thì phải leo lên 1000 bậc thang ,hai bên là cây cối hữu tình, nhưng Na chỉ leo đc tầm 300 bậc thôi là đi xuống vì đi không nổi.\n        Đền bà chúa Thượng Ngàn\n        – Cùng đường với tháp truyền hình nhé, lên đc chùa thì leo tầm 100 bậc thang thôi nên Na leo lên tới nơi, hai bên là rừng tre trúc lên hình đẹp lắm.\n        Thác Bạc\n        – Gần trung tâm luôn, xuống thác tầm 100 bậc thì sẽ tới, thác nước tầm 50m ,cảnh xung quanh là mây bao phủ nhìn thích lắm\n        – Trên đường xuống thác sẽ cho thuê dép tổ ong đi xuống khỏi ướt dép, 1000 đồng /1 đôi thôi nhé\n        – Nhiều quán nước hai bên để nghỉ chân, trái dừa ở đây 45k\n        Cổng Trời\n        – Ngay sát chợ đối diện quán rock cf. Lên cổng trời có thể quan sát được toàn cảnh Tam Đảo, là nơi để sống ảo.\n        Nhà thờ Đá Cổ\n        – Nằm chung chỗ với cổng trời nhé.\n        – Ngoài ra các bạn có thể đi rừng quốc gia Tam Đảo nhé."], ["address_id", 17], ["user_id", 1], ["views_number", 13], ["created_at", "2018-10-08 02:50:34.931495"], ["updated_at", "2018-10-08 02:50:34.931495"]]
+  [1m[36m (11.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "places" ("place_name", "review_content", "address_id", "user_id", "views_number", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["place_name", "Đà Nẵng"], ["review_content", "Ở đâu ở Đà Nẵng : ở Đà Nẵng có rất rất nhiều khách sạn và homestay và nhiều mức giá khác nhau.\n        Mình thì thích ở trên đường Phạm Văn Đồng, con đường này hầu như chỉ toàn là khách sạn dọc 2 bên đường, vị trí khá đẹp vì gần biển Mỹ Khê có 500m, gần cầu Sông Hàn 500m, gần Cầu Rồng 1Km, và gần luôn nhà ga 1Km.\n        Vẫn book trên booking.com cho giá nó rẻ.\n        - Di chuyển ở Đà Nẵng thì mình vẫn thích đi xe máy hơn, thuê 100K/ngày vừa rẻ mà lại vi vu thoải mái, đi taxi thì bất tiện quá.\n        --------------\n        TRẢI NGHIỆM GÌ Ở ĐÀ NẴNG ? \n        Đà Nẵng rất ư đầu tư cho du lịch, mọi địa điểm hầu như luôn hướng tới khách du lịch.\n        Bạn có thể ghé qua những địa điểm sau :\n        1. Bà Nà Hills : Đây chắc là địa điểm đứng đầu rồi, vé 600K/người : mà thấy lúc nào cũng đông, mỗi ngày tầm 8,000 ~ 10,000 người lên đây, con số kinh khủng đúng không.\n        Nhưng thực sự, ông chủ ở đây rất biết đầu tư cho du lịch.\n        2. Bãi biển Mỹ Khê : 1 trong 10 bãi biển quyến rũ nhất hành tinh, bãi biển đẳng cấp quốc tế, cực sạch.\n        3. Cầu khoá tình yêu : đường Trần Hưng Đạo\n        4. Đèo Hải Vân ( xa trung tâm ) : nhưng nên đi đông người.\n        5. Cầu sông Hàn : cầu xoay được.\n        6. Chùa Linh Ứng \n        7. Vòng quay mặt trời\n        8. Bán đảo Sơn Trà \n        9. Cầu Rồng ( phun nước và phun lửa vào mỗi 9h đêm thứ 7 và chủ nhật\n        10. Cung thiếu nhi Đà Nẵng \n        11. Công viên Châu Á \n        13. Ngũ hành sơn ( cách trung tâm thành phố ĐN 7km) \n        14. Du thuyền dọc sông Hàn vào buổi đêm\n        15. Chợ đêm Hội An (gần cung thiếu nhi) : nhưng chỉ diễn ra vào chủ nhật (khoảng 1~2 tuần/lần)"], ["address_id", 32], ["user_id", 2], ["views_number", 4], ["created_at", "2018-10-08 02:50:34.945998"], ["updated_at", "2018-10-08 02:50:34.945998"]]
+  [1m[35m (10.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "places" ("place_name", "review_content", "address_id", "user_id", "views_number", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["place_name", "Biển Lăng Cô"], ["review_content", "Điểm tham quan\n        Đi biển thì tất nhiên tắm biển là số một rồi, nhất là với một bãi biển đẹp thuần khiết như ở Lăng Cô. Thế nhưng cũng thật tiếc nếu bạn bỏ lỡ một số điểm thú vị sau khi ở Lăng Cô:\n        - Có thể đi chợ bằng xe ôm, hoặc thuê xe máy ở lễ tân các khu resort. Ở đó có thể mua tông Lào, quần áo, thắt lưng đánh từ Lào về, khá rẻ. Sau đó bạn nên dạo xe máy trên cung đường du lịch ven đầm Lập An, một bên đầm một bên núi sẽ rất thi vị và có những kỷ niệm không bao giờ quên. Tha hồ chụp ảnh và ngắm cảnh. Đầm này đáy toàn là vỏ trai ốc, không có bùn, nên lội ra rất xa cũng chỉ đến bắp chân thôi, nước trong vắt.\n        - Bãi biển Chân Mây: bãi Chân Mây bằng phẳng kéo dài hình vòng cung, cát trắng và sóng hiền hòa, cách quốc lộ 1A chỉ gần 3km. Bãi tắm ở đây rất đẹp tuy nhiên nếu tắm ở đây bạn phải lưu ý sẽ không có người cứu hộ túc trực, không có hệ thống cảnh báo nguy hiểm.\n        - Đèo Hải Vân: Bắt đầu từ Hải Vân Quan, địa phận của tỉnh Thừa Thiên Huế trên đèo Hải Vân, kéo dài đến vườn quốc gia Bạch Mã chỉ vỏn vẹn chưa đầy 60km nhưng bảo đảm bạn sẽ ngất ngây với những gì trước mắt. Đổ đèo Hải Vân, bạn có thể quan sát vịnh Lăng Cô, đường dẫn vào hầm Hải Vân từ trên cao.\n        Chạy hết đèo, bạn sẽ đến ngã ba để ra quốc lộ 1A, tuy nhiên, bạn không nên chạy đường này mà hãy rẽ trái vào đường Nguyễn Văn để có thể ngắm toàn cảnh đầm Lập An vô cùng đẹp và thơ mộng. Trên đường có nhiều quán hải sản được dựng ngay trên đầm, bạn có thể nghỉ chân vừa thưởng thức hải sản, vừa ngắm cảnh rất tuyệt vời.\n        - Vườn quốc gia Bạch Mã: Cách Lăng Cô khoảng 30 km về phía Tây, Bạch Mã nổi tiếng có khí hậu mát mẻ. Nhiệt độ chưa bao giờ dưới 4 độ C và cao hơn 26 độ C. Tại đây, bạn có thể dạo bộ thưởng thức không khí của núi rừng bạch mã, thăm quan cụm thác Ngũ Hổ, thác Đỗ Quyền, chinh phục đỉnh Bạch Mã, tham quan Vọng Hải Đài \n        (từ đây chiêm ngưỡng toàn cảnh vịnh Chân Mây và đầm Cầu Hai)."], ["address_id", 31], ["user_id", 2], ["views_number", 60], ["created_at", "2018-10-08 02:50:34.959313"], ["updated_at", "2018-10-08 02:50:34.959313"]]
+  [1m[36m (12.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "places"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "place_pictures" ("picture", "place_id") VALUES (?, ?)  [["picture", "tamdao.png"], ["place_id", 1]]
+  [1m[36m (10.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "place_pictures" ("picture", "place_id") VALUES (?, ?)[0m  [["picture", "tamdao2.jpg"], ["place_id", 1]]
+  [1m[35m (10.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "place_pictures" ("picture", "place_id") VALUES (?, ?)  [["picture", "tamdao3.jpg"], ["place_id", 1]]
+  [1m[36m (9.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "place_pictures" ("picture", "place_id") VALUES (?, ?)[0m  [["picture", "danang.jpg"], ["place_id", 2]]
+  [1m[35m (9.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "place_pictures" ("picture", "place_id") VALUES (?, ?)  [["picture", "cau-rong-da-nang.jpg"], ["place_id", 2]]
+  [1m[36m (10.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "place_pictures" ("picture", "place_id") VALUES (?, ?)[0m  [["picture", "langco.jpg"], ["place_id", 3]]
+  [1m[35m (9.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "place_pictures" ("picture", "place_id") VALUES (?, ?)  [["picture", "langco2.jpg"], ["place_id", 3]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "place_pictures"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to AddViewsNumberToPlaces (20181007055354)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TEMPORARY TABLE "aplaces" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "place_name" varchar, "review_content" varchar, "address_id" integer, "user_id" integer, "created_at" datetime, "updated_at" datetime, "views_number" integer DEFAULT 0 NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "places"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aplaces" ("id","place_name","review_content","address_id","user_id","created_at","updated_at","views_number") VALUES (1, 'Tam Đảo', 'Tam Đảo rất bé nên mọi chỗ tham quan chỉ trong tầm 1km, đi bộ là có thể tới hết tất cả nhé. Tất cả các điểm đều có biển chỉ dẫn.
+        Tháp truyền hình
+        – Để lên được tới tháp ngắm toàn cảnh thì phải leo lên 1000 bậc thang ,hai bên là cây cối hữu tình, nhưng Na chỉ leo đc tầm 300 bậc thôi là đi xuống vì đi không nổi.
+        Đền bà chúa Thượng Ngàn
+        – Cùng đường với tháp truyền hình nhé, lên đc chùa thì leo tầm 100 bậc thang thôi nên Na leo lên tới nơi, hai bên là rừng tre trúc lên hình đẹp lắm.
+        Thác Bạc
+        – Gần trung tâm luôn, xuống thác tầm 100 bậc thì sẽ tới, thác nước tầm 50m ,cảnh xung quanh là mây bao phủ nhìn thích lắm
+        – Trên đường xuống thác sẽ cho thuê dép tổ ong đi xuống khỏi ướt dép, 1000 đồng /1 đôi thôi nhé
+        – Nhiều quán nước hai bên để nghỉ chân, trái dừa ở đây 45k
+        Cổng Trời
+        – Ngay sát chợ đối diện quán rock cf. Lên cổng trời có thể quan sát được toàn cảnh Tam Đảo, là nơi để sống ảo.
+        Nhà thờ Đá Cổ
+        – Nằm chung chỗ với cổng trời nhé.
+        – Ngoài ra các bạn có thể đi rừng quốc gia Tam Đảo nhé.', 17, 1, '2018-10-08 02:50:34.931495', '2018-10-08 02:50:34.931495', 13)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "aplaces" ("id","place_name","review_content","address_id","user_id","created_at","updated_at","views_number") VALUES (2, 'Đà Nẵng', 'Ở đâu ở Đà Nẵng : ở Đà Nẵng có rất rất nhiều khách sạn và homestay và nhiều mức giá khác nhau.
+        Mình thì thích ở trên đường Phạm Văn Đồng, con đường này hầu như chỉ toàn là khách sạn dọc 2 bên đường, vị trí khá đẹp vì gần biển Mỹ Khê có 500m, gần cầu Sông Hàn 500m, gần Cầu Rồng 1Km, và gần luôn nhà ga 1Km.
+        Vẫn book trên booking.com cho giá nó rẻ.
+        - Di chuyển ở Đà Nẵng thì mình vẫn thích đi xe máy hơn, thuê 100K/ngày vừa rẻ mà lại vi vu thoải mái, đi taxi thì bất tiện quá.
+        --------------
+        TRẢI NGHIỆM GÌ Ở ĐÀ NẴNG ? 
+        Đà Nẵng rất ư đầu tư cho du lịch, mọi địa điểm hầu như luôn hướng tới khách du lịch.
+        Bạn có thể ghé qua những địa điểm sau :
+        1. Bà Nà Hills : Đây chắc là địa điểm đứng đầu rồi, vé 600K/người : mà thấy lúc nào cũng đông, mỗi ngày tầm 8,000 ~ 10,000 người lên đây, con số kinh khủng đúng không.
+        Nhưng thực sự, ông chủ ở đây rất biết đầu tư cho du lịch.
+        2. Bãi biển Mỹ Khê : 1 trong 10 bãi biển quyến rũ nhất hành tinh, bãi biển đẳng cấp quốc tế, cực sạch.
+        3. Cầu khoá tình yêu : đường Trần Hưng Đạo
+        4. Đèo Hải Vân ( xa trung tâm ) : nhưng nên đi đông người.
+        5. Cầu sông Hàn : cầu xoay được.
+        6. Chùa Linh Ứng 
+        7. Vòng quay mặt trời
+        8. Bán đảo Sơn Trà 
+        9. Cầu Rồng ( phun nước và phun lửa vào mỗi 9h đêm thứ 7 và chủ nhật
+        10. Cung thiếu nhi Đà Nẵng 
+        11. Công viên Châu Á 
+        13. Ngũ hành sơn ( cách trung tâm thành phố ĐN 7km) 
+        14. Du thuyền dọc sông Hàn vào buổi đêm
+        15. Chợ đêm Hội An (gần cung thiếu nhi) : nhưng chỉ diễn ra vào chủ nhật (khoảng 1~2 tuần/lần)', 32, 2, '2018-10-08 02:50:34.945998', '2018-10-08 02:50:34.945998', 4)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aplaces" ("id","place_name","review_content","address_id","user_id","created_at","updated_at","views_number") VALUES (3, 'Biển Lăng Cô', 'Điểm tham quan
+        Đi biển thì tất nhiên tắm biển là số một rồi, nhất là với một bãi biển đẹp thuần khiết như ở Lăng Cô. Thế nhưng cũng thật tiếc nếu bạn bỏ lỡ một số điểm thú vị sau khi ở Lăng Cô:
+        - Có thể đi chợ bằng xe ôm, hoặc thuê xe máy ở lễ tân các khu resort. Ở đó có thể mua tông Lào, quần áo, thắt lưng đánh từ Lào về, khá rẻ. Sau đó bạn nên dạo xe máy trên cung đường du lịch ven đầm Lập An, một bên đầm một bên núi sẽ rất thi vị và có những kỷ niệm không bao giờ quên. Tha hồ chụp ảnh và ngắm cảnh. Đầm này đáy toàn là vỏ trai ốc, không có bùn, nên lội ra rất xa cũng chỉ đến bắp chân thôi, nước trong vắt.
+        - Bãi biển Chân Mây: bãi Chân Mây bằng phẳng kéo dài hình vòng cung, cát trắng và sóng hiền hòa, cách quốc lộ 1A chỉ gần 3km. Bãi tắm ở đây rất đẹp tuy nhiên nếu tắm ở đây bạn phải lưu ý sẽ không có người cứu hộ túc trực, không có hệ thống cảnh báo nguy hiểm.
+        - Đèo Hải Vân: Bắt đầu từ Hải Vân Quan, địa phận của tỉnh Thừa Thiên Huế trên đèo Hải Vân, kéo dài đến vườn quốc gia Bạch Mã chỉ vỏn vẹn chưa đầy 60km nhưng bảo đảm bạn sẽ ngất ngây với những gì trước mắt. Đổ đèo Hải Vân, bạn có thể quan sát vịnh Lăng Cô, đường dẫn vào hầm Hải Vân từ trên cao.
+        Chạy hết đèo, bạn sẽ đến ngã ba để ra quốc lộ 1A, tuy nhiên, bạn không nên chạy đường này mà hãy rẽ trái vào đường Nguyễn Văn để có thể ngắm toàn cảnh đầm Lập An vô cùng đẹp và thơ mộng. Trên đường có nhiều quán hải sản được dựng ngay trên đầm, bạn có thể nghỉ chân vừa thưởng thức hải sản, vừa ngắm cảnh rất tuyệt vời.
+        - Vườn quốc gia Bạch Mã: Cách Lăng Cô khoảng 30 km về phía Tây, Bạch Mã nổi tiếng có khí hậu mát mẻ. Nhiệt độ chưa bao giờ dưới 4 độ C và cao hơn 26 độ C. Tại đây, bạn có thể dạo bộ thưởng thức không khí của núi rừng bạch mã, thăm quan cụm thác Ngũ Hổ, thác Đỗ Quyền, chinh phục đỉnh Bạch Mã, tham quan Vọng Hải Đài 
+        (từ đây chiêm ngưỡng toàn cảnh vịnh Chân Mây và đầm Cầu Hai).', 31, 2, '2018-10-08 02:50:34.959313', '2018-10-08 02:50:34.959313', 60)
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "places"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "places" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "place_name" varchar, "review_content" varchar, "address_id" integer, "user_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "aplaces"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "places" ("id","place_name","review_content","address_id","user_id","created_at","updated_at") VALUES (1, 'Tam Đảo', 'Tam Đảo rất bé nên mọi chỗ tham quan chỉ trong tầm 1km, đi bộ là có thể tới hết tất cả nhé. Tất cả các điểm đều có biển chỉ dẫn.
+        Tháp truyền hình
+        – Để lên được tới tháp ngắm toàn cảnh thì phải leo lên 1000 bậc thang ,hai bên là cây cối hữu tình, nhưng Na chỉ leo đc tầm 300 bậc thôi là đi xuống vì đi không nổi.
+        Đền bà chúa Thượng Ngàn
+        – Cùng đường với tháp truyền hình nhé, lên đc chùa thì leo tầm 100 bậc thang thôi nên Na leo lên tới nơi, hai bên là rừng tre trúc lên hình đẹp lắm.
+        Thác Bạc
+        – Gần trung tâm luôn, xuống thác tầm 100 bậc thì sẽ tới, thác nước tầm 50m ,cảnh xung quanh là mây bao phủ nhìn thích lắm
+        – Trên đường xuống thác sẽ cho thuê dép tổ ong đi xuống khỏi ướt dép, 1000 đồng /1 đôi thôi nhé
+        – Nhiều quán nước hai bên để nghỉ chân, trái dừa ở đây 45k
+        Cổng Trời
+        – Ngay sát chợ đối diện quán rock cf. Lên cổng trời có thể quan sát được toàn cảnh Tam Đảo, là nơi để sống ảo.
+        Nhà thờ Đá Cổ
+        – Nằm chung chỗ với cổng trời nhé.
+        – Ngoài ra các bạn có thể đi rừng quốc gia Tam Đảo nhé.', 17, 1, '2018-10-08 02:50:34.931495', '2018-10-08 02:50:34.931495')
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "places" ("id","place_name","review_content","address_id","user_id","created_at","updated_at") VALUES (2, 'Đà Nẵng', 'Ở đâu ở Đà Nẵng : ở Đà Nẵng có rất rất nhiều khách sạn và homestay và nhiều mức giá khác nhau.
+        Mình thì thích ở trên đường Phạm Văn Đồng, con đường này hầu như chỉ toàn là khách sạn dọc 2 bên đường, vị trí khá đẹp vì gần biển Mỹ Khê có 500m, gần cầu Sông Hàn 500m, gần Cầu Rồng 1Km, và gần luôn nhà ga 1Km.
+        Vẫn book trên booking.com cho giá nó rẻ.
+        - Di chuyển ở Đà Nẵng thì mình vẫn thích đi xe máy hơn, thuê 100K/ngày vừa rẻ mà lại vi vu thoải mái, đi taxi thì bất tiện quá.
+        --------------
+        TRẢI NGHIỆM GÌ Ở ĐÀ NẴNG ? 
+        Đà Nẵng rất ư đầu tư cho du lịch, mọi địa điểm hầu như luôn hướng tới khách du lịch.
+        Bạn có thể ghé qua những địa điểm sau :
+        1. Bà Nà Hills : Đây chắc là địa điểm đứng đầu rồi, vé 600K/người : mà thấy lúc nào cũng đông, mỗi ngày tầm 8,000 ~ 10,000 người lên đây, con số kinh khủng đúng không.
+        Nhưng thực sự, ông chủ ở đây rất biết đầu tư cho du lịch.
+        2. Bãi biển Mỹ Khê : 1 trong 10 bãi biển quyến rũ nhất hành tinh, bãi biển đẳng cấp quốc tế, cực sạch.
+        3. Cầu khoá tình yêu : đường Trần Hưng Đạo
+        4. Đèo Hải Vân ( xa trung tâm ) : nhưng nên đi đông người.
+        5. Cầu sông Hàn : cầu xoay được.
+        6. Chùa Linh Ứng 
+        7. Vòng quay mặt trời
+        8. Bán đảo Sơn Trà 
+        9. Cầu Rồng ( phun nước và phun lửa vào mỗi 9h đêm thứ 7 và chủ nhật
+        10. Cung thiếu nhi Đà Nẵng 
+        11. Công viên Châu Á 
+        13. Ngũ hành sơn ( cách trung tâm thành phố ĐN 7km) 
+        14. Du thuyền dọc sông Hàn vào buổi đêm
+        15. Chợ đêm Hội An (gần cung thiếu nhi) : nhưng chỉ diễn ra vào chủ nhật (khoảng 1~2 tuần/lần)', 32, 2, '2018-10-08 02:50:34.945998', '2018-10-08 02:50:34.945998')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "places" ("id","place_name","review_content","address_id","user_id","created_at","updated_at") VALUES (3, 'Biển Lăng Cô', 'Điểm tham quan
+        Đi biển thì tất nhiên tắm biển là số một rồi, nhất là với một bãi biển đẹp thuần khiết như ở Lăng Cô. Thế nhưng cũng thật tiếc nếu bạn bỏ lỡ một số điểm thú vị sau khi ở Lăng Cô:
+        - Có thể đi chợ bằng xe ôm, hoặc thuê xe máy ở lễ tân các khu resort. Ở đó có thể mua tông Lào, quần áo, thắt lưng đánh từ Lào về, khá rẻ. Sau đó bạn nên dạo xe máy trên cung đường du lịch ven đầm Lập An, một bên đầm một bên núi sẽ rất thi vị và có những kỷ niệm không bao giờ quên. Tha hồ chụp ảnh và ngắm cảnh. Đầm này đáy toàn là vỏ trai ốc, không có bùn, nên lội ra rất xa cũng chỉ đến bắp chân thôi, nước trong vắt.
+        - Bãi biển Chân Mây: bãi Chân Mây bằng phẳng kéo dài hình vòng cung, cát trắng và sóng hiền hòa, cách quốc lộ 1A chỉ gần 3km. Bãi tắm ở đây rất đẹp tuy nhiên nếu tắm ở đây bạn phải lưu ý sẽ không có người cứu hộ túc trực, không có hệ thống cảnh báo nguy hiểm.
+        - Đèo Hải Vân: Bắt đầu từ Hải Vân Quan, địa phận của tỉnh Thừa Thiên Huế trên đèo Hải Vân, kéo dài đến vườn quốc gia Bạch Mã chỉ vỏn vẹn chưa đầy 60km nhưng bảo đảm bạn sẽ ngất ngây với những gì trước mắt. Đổ đèo Hải Vân, bạn có thể quan sát vịnh Lăng Cô, đường dẫn vào hầm Hải Vân từ trên cao.
+        Chạy hết đèo, bạn sẽ đến ngã ba để ra quốc lộ 1A, tuy nhiên, bạn không nên chạy đường này mà hãy rẽ trái vào đường Nguyễn Văn để có thể ngắm toàn cảnh đầm Lập An vô cùng đẹp và thơ mộng. Trên đường có nhiều quán hải sản được dựng ngay trên đầm, bạn có thể nghỉ chân vừa thưởng thức hải sản, vừa ngắm cảnh rất tuyệt vời.
+        - Vườn quốc gia Bạch Mã: Cách Lăng Cô khoảng 30 km về phía Tây, Bạch Mã nổi tiếng có khí hậu mát mẻ. Nhiệt độ chưa bao giờ dưới 4 độ C và cao hơn 26 độ C. Tại đây, bạn có thể dạo bộ thưởng thức không khí của núi rừng bạch mã, thăm quan cụm thác Ngũ Hổ, thác Đỗ Quyền, chinh phục đỉnh Bạch Mã, tham quan Vọng Hải Đài 
+        (từ đây chiêm ngưỡng toàn cảnh vịnh Chân Mây và đầm Cầu Hai).', 31, 2, '2018-10-08 02:50:34.959313', '2018-10-08 02:50:34.959313')
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "aplaces"[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?  [["version", "20181007055354"]]
+  [1m[36m (11.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddViewsNumberToPlaces (20181007055354)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "places" ADD "views_number" integer DEFAULT 0[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20181007055354"]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (10.2ms)[0m  DELETE FROM "addresses";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (7.7ms)[0m  DELETE FROM sqlite_sequence where name = 'addresses';
+  [1m[36m (7.7ms)[0m  [1mDELETE FROM "place_pictures";[0m
+  [1m[35m (0.2ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (8.5ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'place_pictures';[0m
+  [1m[35m (7.9ms)[0m  DELETE FROM "places";
+  [1m[36m (0.2ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (7.4ms)[0m  DELETE FROM sqlite_sequence where name = 'places';
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Hà Nội"]]
+  [1m[36m (8.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Hà Giang"]]
+  [1m[35m (7.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Cao Bằng"]]
+  [1m[36m (7.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Bắc Kạn"]]
+  [1m[35m (7.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Tuyên Quang"]]
+  [1m[36m (7.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Lào Cai"]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Điện Biên"]]
+  [1m[36m (6.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Lai Châu"]]
+  [1m[35m (7.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Sơn La"]]
+  [1m[36m (6.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Yên Bái"]]
+  [1m[35m (7.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Hòa Bình"]]
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Thái Nguyên"]]
+  [1m[35m (7.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Lạng Sơn"]]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Quảng Ninh"]]
+  [1m[35m (6.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Bắc Giang"]]
+  [1m[36m (6.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Phú Thọ"]]
+  [1m[35m (7.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Vĩnh Phúc"]]
+  [1m[36m (6.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Bắc Ninh"]]
+  [1m[35m (6.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Hải Dương"]]
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Hải Phòng"]]
+  [1m[35m (7.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Hưng Yên"]]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Thái Bình"]]
+  [1m[35m (8.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Hà Nam"]]
+  [1m[36m (7.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Nam Định"]]
+  [1m[35m (6.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Ninh Bình"]]
+  [1m[36m (7.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Thanh Hóa"]]
+  [1m[35m (8.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Nghệ An"]]
+  [1m[36m (6.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Hà Tĩnh"]]
+  [1m[35m (7.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Quảng Bình"]]
+  [1m[36m (8.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Quảng Trị"]]
+  [1m[35m (7.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Thừa Thiên Huế"]]
+  [1m[36m (6.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Đà Nẵng"]]
+  [1m[35m (6.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Quảng Nam"]]
+  [1m[36m (6.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Quảng Ngãi"]]
+  [1m[35m (7.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Bình Định"]]
+  [1m[36m (7.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Phú Yên"]]
+  [1m[35m (9.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Khánh Hòa"]]
+  [1m[36m (9.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Ninh Thuận"]]
+  [1m[35m (6.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Bình Thuận"]]
+  [1m[36m (6.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Kon Tum"]]
+  [1m[35m (6.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Gia Lai"]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Đắk Lắk"]]
+  [1m[35m (8.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Đắk Nông"]]
+  [1m[36m (8.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Lâm Đồng"]]
+  [1m[35m (7.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Bình Phước"]]
+  [1m[36m (6.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Tây Ninh"]]
+  [1m[35m (6.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Bình Dương"]]
+  [1m[36m (6.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Đồng Nai"]]
+  [1m[35m (7.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Bà Rịa - Vũng Tàu"]]
+  [1m[36m (11.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Hồ Chí Minh"]]
+  [1m[35m (6.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Long An"]]
+  [1m[36m (6.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Tiền Giang"]]
+  [1m[35m (7.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Bến Tre"]]
+  [1m[36m (6.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Trà Vinh"]]
+  [1m[35m (10.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Vĩnh Long"]]
+  [1m[36m (6.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Đồng Tháp"]]
+  [1m[35m (9.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "An Giang"]]
+  [1m[36m (7.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Kiên Giang"]]
+  [1m[35m (9.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Cần Thơ"]]
+  [1m[36m (7.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Hậu Giang"]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Sóc Trăng"]]
+  [1m[36m (6.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "addresses" ("name") VALUES (?)[0m  [["name", "Bạc Liêu"]]
+  [1m[35m (7.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "addresses" ("name") VALUES (?)  [["name", "Cà Mau"]]
+  [1m[36m (7.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "addresses"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "places" ("place_name", "review_content", "address_id", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["place_name", "Tam Đảo"], ["review_content", "Tam Đảo rất bé nên mọi chỗ tham quan chỉ trong tầm 1km, đi bộ là có thể tới hết tất cả nhé. Tất cả các điểm đều có biển chỉ dẫn.\n        Tháp truyền hình\n        – Để lên được tới tháp ngắm toàn cảnh thì phải leo lên 1000 bậc thang ,hai bên là cây cối hữu tình, nhưng Na chỉ leo đc tầm 300 bậc thôi là đi xuống vì đi không nổi.\n        Đền bà chúa Thượng Ngàn\n        – Cùng đường với tháp truyền hình nhé, lên đc chùa thì leo tầm 100 bậc thang thôi nên Na leo lên tới nơi, hai bên là rừng tre trúc lên hình đẹp lắm.\n        Thác Bạc\n        – Gần trung tâm luôn, xuống thác tầm 100 bậc thì sẽ tới, thác nước tầm 50m ,cảnh xung quanh là mây bao phủ nhìn thích lắm\n        – Trên đường xuống thác sẽ cho thuê dép tổ ong đi xuống khỏi ướt dép, 1000 đồng /1 đôi thôi nhé\n        – Nhiều quán nước hai bên để nghỉ chân, trái dừa ở đây 45k\n        Cổng Trời\n        – Ngay sát chợ đối diện quán rock cf. Lên cổng trời có thể quan sát được toàn cảnh Tam Đảo, là nơi để sống ảo.\n        Nhà thờ Đá Cổ\n        – Nằm chung chỗ với cổng trời nhé.\n        – Ngoài ra các bạn có thể đi rừng quốc gia Tam Đảo nhé."], ["address_id", 17], ["user_id", 1], ["created_at", "2018-10-08 02:55:45.703273"], ["updated_at", "2018-10-08 02:55:45.703273"]]
+  [1m[36m (9.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "places" ("place_name", "review_content", "address_id", "user_id", "views_number", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["place_name", "Đà Nẵng"], ["review_content", "Ở đâu ở Đà Nẵng : ở Đà Nẵng có rất rất nhiều khách sạn và homestay và nhiều mức giá khác nhau.\n        Mình thì thích ở trên đường Phạm Văn Đồng, con đường này hầu như chỉ toàn là khách sạn dọc 2 bên đường, vị trí khá đẹp vì gần biển Mỹ Khê có 500m, gần cầu Sông Hàn 500m, gần Cầu Rồng 1Km, và gần luôn nhà ga 1Km.\n        Vẫn book trên booking.com cho giá nó rẻ.\n        - Di chuyển ở Đà Nẵng thì mình vẫn thích đi xe máy hơn, thuê 100K/ngày vừa rẻ mà lại vi vu thoải mái, đi taxi thì bất tiện quá.\n        --------------\n        TRẢI NGHIỆM GÌ Ở ĐÀ NẴNG ? \n        Đà Nẵng rất ư đầu tư cho du lịch, mọi địa điểm hầu như luôn hướng tới khách du lịch.\n        Bạn có thể ghé qua những địa điểm sau :\n        1. Bà Nà Hills : Đây chắc là địa điểm đứng đầu rồi, vé 600K/người : mà thấy lúc nào cũng đông, mỗi ngày tầm 8,000 ~ 10,000 người lên đây, con số kinh khủng đúng không.\n        Nhưng thực sự, ông chủ ở đây rất biết đầu tư cho du lịch.\n        2. Bãi biển Mỹ Khê : 1 trong 10 bãi biển quyến rũ nhất hành tinh, bãi biển đẳng cấp quốc tế, cực sạch.\n        3. Cầu khoá tình yêu : đường Trần Hưng Đạo\n        4. Đèo Hải Vân ( xa trung tâm ) : nhưng nên đi đông người.\n        5. Cầu sông Hàn : cầu xoay được.\n        6. Chùa Linh Ứng \n        7. Vòng quay mặt trời\n        8. Bán đảo Sơn Trà \n        9. Cầu Rồng ( phun nước và phun lửa vào mỗi 9h đêm thứ 7 và chủ nhật\n        10. Cung thiếu nhi Đà Nẵng \n        11. Công viên Châu Á \n        13. Ngũ hành sơn ( cách trung tâm thành phố ĐN 7km) \n        14. Du thuyền dọc sông Hàn vào buổi đêm\n        15. Chợ đêm Hội An (gần cung thiếu nhi) : nhưng chỉ diễn ra vào chủ nhật (khoảng 1~2 tuần/lần)"], ["address_id", 32], ["user_id", 2], ["views_number", 4], ["created_at", "2018-10-08 02:55:45.715602"], ["updated_at", "2018-10-08 02:55:45.715602"]]
+  [1m[35m (11.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "places" ("place_name", "review_content", "address_id", "user_id", "views_number", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["place_name", "Biển Lăng Cô"], ["review_content", "Điểm tham quan\n        Đi biển thì tất nhiên tắm biển là số một rồi, nhất là với một bãi biển đẹp thuần khiết như ở Lăng Cô. Thế nhưng cũng thật tiếc nếu bạn bỏ lỡ một số điểm thú vị sau khi ở Lăng Cô:\n        - Có thể đi chợ bằng xe ôm, hoặc thuê xe máy ở lễ tân các khu resort. Ở đó có thể mua tông Lào, quần áo, thắt lưng đánh từ Lào về, khá rẻ. Sau đó bạn nên dạo xe máy trên cung đường du lịch ven đầm Lập An, một bên đầm một bên núi sẽ rất thi vị và có những kỷ niệm không bao giờ quên. Tha hồ chụp ảnh và ngắm cảnh. Đầm này đáy toàn là vỏ trai ốc, không có bùn, nên lội ra rất xa cũng chỉ đến bắp chân thôi, nước trong vắt.\n        - Bãi biển Chân Mây: bãi Chân Mây bằng phẳng kéo dài hình vòng cung, cát trắng và sóng hiền hòa, cách quốc lộ 1A chỉ gần 3km. Bãi tắm ở đây rất đẹp tuy nhiên nếu tắm ở đây bạn phải lưu ý sẽ không có người cứu hộ túc trực, không có hệ thống cảnh báo nguy hiểm.\n        - Đèo Hải Vân: Bắt đầu từ Hải Vân Quan, địa phận của tỉnh Thừa Thiên Huế trên đèo Hải Vân, kéo dài đến vườn quốc gia Bạch Mã chỉ vỏn vẹn chưa đầy 60km nhưng bảo đảm bạn sẽ ngất ngây với những gì trước mắt. Đổ đèo Hải Vân, bạn có thể quan sát vịnh Lăng Cô, đường dẫn vào hầm Hải Vân từ trên cao.\n        Chạy hết đèo, bạn sẽ đến ngã ba để ra quốc lộ 1A, tuy nhiên, bạn không nên chạy đường này mà hãy rẽ trái vào đường Nguyễn Văn để có thể ngắm toàn cảnh đầm Lập An vô cùng đẹp và thơ mộng. Trên đường có nhiều quán hải sản được dựng ngay trên đầm, bạn có thể nghỉ chân vừa thưởng thức hải sản, vừa ngắm cảnh rất tuyệt vời.\n        - Vườn quốc gia Bạch Mã: Cách Lăng Cô khoảng 30 km về phía Tây, Bạch Mã nổi tiếng có khí hậu mát mẻ. Nhiệt độ chưa bao giờ dưới 4 độ C và cao hơn 26 độ C. Tại đây, bạn có thể dạo bộ thưởng thức không khí của núi rừng bạch mã, thăm quan cụm thác Ngũ Hổ, thác Đỗ Quyền, chinh phục đỉnh Bạch Mã, tham quan Vọng Hải Đài \n        (từ đây chiêm ngưỡng toàn cảnh vịnh Chân Mây và đầm Cầu Hai)."], ["address_id", 31], ["user_id", 2], ["views_number", 60], ["created_at", "2018-10-08 02:55:45.729486"], ["updated_at", "2018-10-08 02:55:45.729486"]]
+  [1m[36m (8.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "places"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "place_pictures" ("picture", "place_id") VALUES (?, ?)  [["picture", "tamdao.png"], ["place_id", 1]]
+  [1m[36m (8.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "place_pictures" ("picture", "place_id") VALUES (?, ?)[0m  [["picture", "tamdao2.jpg"], ["place_id", 1]]
+  [1m[35m (7.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "place_pictures" ("picture", "place_id") VALUES (?, ?)  [["picture", "tamdao3.jpg"], ["place_id", 1]]
+  [1m[36m (7.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "place_pictures" ("picture", "place_id") VALUES (?, ?)[0m  [["picture", "danang.jpg"], ["place_id", 2]]
+  [1m[35m (8.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "place_pictures" ("picture", "place_id") VALUES (?, ?)  [["picture", "cau-rong-da-nang.jpg"], ["place_id", 2]]
+  [1m[36m (15.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "place_pictures" ("picture", "place_id") VALUES (?, ?)[0m  [["picture", "langco.jpg"], ["place_id", 3]]
+  [1m[35m (7.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "place_pictures" ("picture", "place_id") VALUES (?, ?)  [["picture", "langco2.jpg"], ["place_id", 3]]
+  [1m[36m (9.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "place_pictures"

@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 20181007055354) do
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "views_number"
+    t.integer  "views_number",   default: 0
   end
 
   create_table "users", force: :cascade do |t|

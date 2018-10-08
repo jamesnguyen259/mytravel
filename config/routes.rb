@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get '/style', to: 'home#style', as: 'style'
   get '/fashion', to: 'home#fashion', as: 'fashion'
 
-
+  resources :users
   resources :places
   resources :addresses
   resources :place_pictures

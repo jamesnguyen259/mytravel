@@ -89,7 +89,7 @@ Place.create!([
         – Ngay sát chợ đối diện quán rock cf. Lên cổng trời có thể quan sát được toàn cảnh Tam Đảo, là nơi để sống ảo.
         Nhà thờ Đá Cổ
         – Nằm chung chỗ với cổng trời nhé.
-        – Ngoài ra các bạn có thể đi rừng quốc gia Tam Đảo nhé.", address_id: 17, user_id: 1, views_number: 13},
+        – Ngoài ra các bạn có thể đi rừng quốc gia Tam Đảo nhé.", address_id: 17, user_id: 1},
     {place_name: "Đà Nẵng", review_content: "Ở đâu ở Đà Nẵng : ở Đà Nẵng có rất rất nhiều khách sạn và homestay và nhiều mức giá khác nhau.
         Mình thì thích ở trên đường Phạm Văn Đồng, con đường này hầu như chỉ toàn là khách sạn dọc 2 bên đường, vị trí khá đẹp vì gần biển Mỹ Khê có 500m, gần cầu Sông Hàn 500m, gần Cầu Rồng 1Km, và gần luôn nhà ga 1Km.
         Vẫn book trên booking.com cho giá nó rẻ.
