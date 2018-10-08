@@ -841,6 +841,7 @@ article {
       font-weight: 300;
       text-transform: uppercase; }
     .blog-entry-travel .desc .meta {
+      width: 119px;
       text-transform: uppercase;
       font-size: 14px;
       background: #fff;
@@ -1361,7 +1362,7 @@ article {
     box-shadow: none;
     border-color: #F75940; }
 
-#message {
+#cmt-message {
   height: 130px; }
 
 .colorlib-nav-toggle {
@@ -1548,3 +1549,104 @@ article {
     top: 5px;
 }
 // .end back to top button
+
+// my profile
+.container-profile{
+    padding:5%;
+}
+.container-profile .img{
+    text-align:center;
+}
+.container-profile .details{
+    border-left:3px solid #ded4da;
+}
+.container-profile .details p{
+    font-size:15px;
+    font-weight:bold;
+}
+.container-profile .btn-group {
+    margin-left: 175px;
+    margin-top: 30px;
+}
+.container-profile .btn-group .update-btn {
+  border: 1px solid #F75940;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.container-profile .btn-group .update-btn:hover {
+  background: #F75940;
+  color: #fff;
+}
+.container-profile .name-profile {
+  text-transform: uppercase;
+  color: #F75940;
+  letter-spacing: 3px;
+}
+.my-review {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+// ./end my profile
+
+// message flash
+#message {
+    position: fixed;
+    top: 2%;
+    right: 3%;
+    background: #F75940;
+    color: #fff;
+    border-radius: 5px;
+}
+#inner-message {
+    margin: auto;
+}
+// /end message flash
+
+// update profile modal
+.modal.right .modal-dialog {
+		position: fixed;
+		margin: auto;
+		width: 320px;
+		height: 100%;
+		-webkit-transform: translate3d(0%, 0, 0);
+		    -ms-transform: translate3d(0%, 0, 0);
+		     -o-transform: translate3d(0%, 0, 0);
+		        transform: translate3d(0%, 0, 0);
+	}
+
+	.modal.right .modal-content {
+		height: 100%;
+		overflow-y: auto;
+	}
+	
+	.modal.right .modal-body {
+		padding: 15px 15px 80px;
+	}
+
+        
+/*Right*/
+.modal.right.fade .modal-dialog {
+	right: -320px;
+	-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+	   -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+	     -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+	        transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+	right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+	border-radius: 0;
+	border: none;
+}
+
+.modal-header {
+	border-bottom-color: #EEEEEE;
+	background-color: #FAFAFA;
+}
+// /end update profile

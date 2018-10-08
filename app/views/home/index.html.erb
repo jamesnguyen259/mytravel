@@ -7,20 +7,20 @@
 				<div class="row">
 					<div class="col-md-9">
 						<div class="content-wrap">
-							<% @place_reviews.each do |place| %>
+							<% @place_reviews.each do |review| %>
 								<article class="animate-box">
-									<div class="blog-img" style="background-image: url(/assets/<%= place.place_pictures.first.picture %>);"></div>
+									<div class="blog-img" style="background-image: url(/assets/<%= review.place_pictures.first.picture %>);"></div>
 									<div class="desc">
 										<div class="meta">
 											<p>
-												<span><%= place.address.name %></span>
-												<span><%= place.user.name %></span>
-												<span><%= place.created_at.strftime("%d %b %Y") %></span>
+												<span><%= review.address.name %></span>
+												<span><%= review.user.name %></span>
+												<span><%= review.created_at.strftime("%d %b %Y") %></span>
 											</p>
 										</div>
-										<h2><%= link_to place.place_name, place_path(place.id)  %></h2>
-										<p><%= place.review_content[0..250] %>...</p>
-										<p><%= link_to place_path(place.id), class:"btn btn-primary with-arrow" do %>
+										<h2><%= link_to review.place_name, place_path(review.id)  %></h2>
+										<p><%= review.review_content[0..250] %>...</p>
+										<p><%= link_to place_path(review.id), class:"btn btn-primary with-arrow" do %>
 											Read More <i class="fa fa-angle-double-right"></i>
 										<% end %></p>
 									</div>
