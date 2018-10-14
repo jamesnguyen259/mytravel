@@ -1,0 +1,11 @@
+<% provide(:title, "Edit #{@place.place_name}") %>
+<% provide(:button_text, "Submit") %>
+
+<% content_for :content do %>
+    <div id="colorlib-main">
+		<div class="colorlib-blog">
+		    <h1>Edit <%= @place.place_name %></h1>
+			<%= render "places/form" %>
+		</div>
+	</div>
+<% end %>

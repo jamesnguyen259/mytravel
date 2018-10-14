@@ -9,13 +9,14 @@
 						<div class="content-wrap">
 							<% @place_reviews.each do |review| %>
 								<article class="animate-box">
-									<div class="blog-img" style="background-image: url(/assets/<%= review.place_pictures.first.picture %>);"></div>
+									<div class="blog-img" style="background-image: url(<%= review.place_pictures.first.picture.url %>);"></div>
 									<div class="desc">
 										<div class="meta">
 											<p>
 												<span><%= review.address.name %></span>
 												<span><%= review.user.name %></span>
 												<span><%= review.created_at.strftime("%d %b %Y") %></span>
+												<span><i class="fa fa-eye"></i><i><%= review.views_number %> views</i></span>
 											</p>
 										</div>
 										<h2><%= link_to review.place_name, place_path(review.id)  %></h2>
@@ -61,7 +62,7 @@
 								<h2 class="sidebar-heading">Recent Blog</h2>
 								<% @recent_reviews.each do |review| %>
 									<div class="f-blog">
-										<a href="<%= place_path(review.id) %>" class="blog-img" style="background-image: url(/assets/<%= review.place_pictures.first.picture %>);">
+										<a href="<%= place_path(review.id) %>" class="blog-img" style="background-image: url(<%= review.place_pictures.first.picture.url %>);">
 										</a>
 										<div class="desc">
 											<h3><%= link_to review.place_name, place_path(review.id) %></h3>
@@ -74,7 +75,7 @@
 								<h2 class="sidebar-heading">Most viewed</h2>
 								<% @most_viewed.each do |review| %>
 									<div class="f-blog">
-										<a href="<%= place_path(review.id) %>" class="blog-img" style="background-image: url(/assets/<%= review.place_pictures.first.picture %>);">
+										<a href="<%= place_path(review.id) %>" class="blog-img" style="background-image: url(<%= review.place_pictures.first.picture.url %>);">
 										</a>
 										<div class="desc">
 											<h3><%= link_to review.place_name, place_path(review.id) %></h3>

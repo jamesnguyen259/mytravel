@@ -12,7 +12,7 @@
 								    <div class="flexslider">
                                         <ul class="slides">
     								        <% @place.place_pictures.each do |picture| %>
-                            				   	<li class="blog-img" style="background-image: url(/assets/<%= picture.picture %>);">
+                            				   	<li class="blog-img" style="background-image: url(<%= picture.picture.url %>);">
                             				   	</li>
                         				   	<% end %>
                     				  	</ul>
@@ -24,7 +24,12 @@
 											<span><%= @place.address.name %></span>
 											<span><%= @place.created_at.strftime("%d %b %Y") %></span>
 											<span><%= link_to @place.user.name, user_path(@place.user.id) %> </span>
-											<span><a href="#">3 Comments</a></span>
+											<% if @place.user == current_user %>
+												<span>
+													<i class="fa fa-pencil"></i>
+													<%= link_to "Edit this post", edit_place_path(@place.id), class: "update-btn" %>
+												</span>
+											<% end %>
 										</p>
 									</div>
 									<h2><%= @place.place_name %></h2>
@@ -138,10 +143,10 @@
 								<h2 class="sidebar-heading">Related</h2>
 								<% @related_reviews.each do |review| %>
 									<div class="f-blog">
-										<a href="#" class="blog-img" style="background-image: url(/assets/<%= review.place_pictures.first.picture %>);">
+										<a href="#" class="blog-img" style="background-image: url(<%= review.place_pictures.first.picture.url %>);">
 										</a>
 										<div class="desc">
-											<h3><%= link_to review.place_name, "#" %></h3>
+											<h3><%= link_to review.place_name, place_path(review.id) %></h3>
 											<p class="admin"><span><%= review.created_at.strftime("%d %b %Y") %></span></p>
 										</div>
 									</div>
@@ -151,10 +156,10 @@
 								<h2 class="sidebar-heading">Also by author</h2>
 								<% @same_author_reviews.each do |review| %>
 									<div class="f-blog">
-										<a href="#" class="blog-img" style="background-image: url(/assets/<%= review.place_pictures.first.picture %>);">
+										<a href="#" class="blog-img" style="background-image: url(<%= review.place_pictures.first.picture.url %>);">
 										</a>
 										<div class="desc">
-											<h3><%= link_to review.place_name, "#" %></h3>
+											<h3><%= link_to review.place_name, place_path(review.id) %></h3>
 											<p class="admin"><span><%= review.created_at.strftime("%d %b %Y") %></span></p>
 										</div>
 									</div>
