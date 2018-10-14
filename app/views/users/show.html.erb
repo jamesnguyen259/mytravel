@@ -21,9 +21,8 @@
 			  </div>
 			  	<% if @user == current_user %>
 				  <div class="btn-group">
-				  	<button class="update-btn" data-toggle="modal" data-target="#update-profile-modal">
-						Update profile
-					</button>
+				  	<%= link_to "Update profile", "#update-profile-modal", "data-toggle" => "modal", class: "update-btn" %>
+					<%= link_to "Change your password", edit_user_registration_path, class: "update-btn" %>
 				  </div>
 				<% end %>
 			</div>
