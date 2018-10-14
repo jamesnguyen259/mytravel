@@ -37,7 +37,7 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 gem 'devise'
 gem 'will_paginate', '~> 3.1.0'
 gem 'database_cleaner'
-
+gem 'paperclip'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -9,7 +9,7 @@
 						<div class="content-wrap">
 						    <% @reviews.each do |review| %>
     							<article class="blog-entry-travel animate-box">
-    								<div class="blog-img" style="background-image: url(/assets/<%= review.place_pictures.first.picture %>);"></div>
+    								<div class="blog-img" style="background-image: url(<%= review.place_pictures.first.picture.url %>);"></div>
     								<div class="desc">
     									<p class="meta">
     										<span class="cat"><%= link_to review.address.name, address_path(review.address.id) %></span>

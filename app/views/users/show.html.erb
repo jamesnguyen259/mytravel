@@ -6,7 +6,11 @@
 			<div class="container-profile">
 			  <div class="row">
 			    <div class="col-md-6 img">
-			      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvzOpl3-kqfNbPcA_u_qEZcSuvu5Je4Ce_FkTMMjxhB-J1wWin-Q"  alt="" class="img-rounded">
+			    	<% if @user.avatar.exists? %>
+			    		<%= image_tag @user.avatar.url, width: "275", height: "183", class: "img-rounded" %>
+		    		<% else %>
+		    			<%= image_tag "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvzOpl3-kqfNbPcA_u_qEZcSuvu5Je4Ce_FkTMMjxhB-J1wWin-Q", class: "img-rounded" %>
+			      	<% end %>
 			    </div>
 			    <div class="col-md-6 details">
 			      <blockquote>
@@ -23,6 +27,7 @@
 				  <div class="btn-group">
 				  	<%= link_to "Update profile", "#update-profile-modal", "data-toggle" => "modal", class: "update-btn" %>
 					<%= link_to "Change your password", edit_user_registration_path, class: "update-btn" %>
+					<%= link_to "Create your new review", new_place_path, class: "update-btn" %>
 				  </div>
 				<% end %>
 			</div>
@@ -38,7 +43,7 @@
 								<div class="blog-entry-style animate-box">
 									<div class="blog-img">
 										<%= link_to place_path(review.id) do %>
-											<%=image_tag "/assets/#{review.place_pictures.first.picture}", class:"img-responsive", alt:"html5 bootstrap template" %>
+											<%= image_tag review.place_pictures.first.picture.url, class:"img-responsive", alt:"html5 bootstrap template" %>
 										<% end %>
 									</div>
 									<div class="desc">
