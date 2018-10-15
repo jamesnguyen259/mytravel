@@ -27,7 +27,9 @@ class PlacesController < ApplicationController
         if @place.update_attributes place_params
             if params[:images]
                 @place.place_pictures.each_with_index do |place_picture, index|
-                    place_picture.update :picture => params[:images][index]
+                    if params[:images][index]
+                        place_picture.update :picture => params[:images][index]
+                    end
                 end
             end
             flash[:notice] = "Updated successfully!!"
