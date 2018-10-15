@@ -22,10 +22,12 @@
 			<h1 id="colorlib-logo"><%= link_to "MyTravel", root_path %></h1>
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
-					<li>
-						<%= image_tag current_user.avatar.url(:small), style: "border-radius: 50%" %>
-						<%= current_user.name %>
-					</li>
+					<% if user_signed_in? %>
+						<li>
+							<%= image_tag current_user.avatar.url(:small), style: "border-radius: 50%" %>
+							<%= current_user.name %>
+						</li>
+					<% end %>
 					<li><%= link_to_in_li "Home", root_path %></li>
 					<li><%= link_to_in_li "Style", style_path %></li>
 					<% if user_signed_in? %>
