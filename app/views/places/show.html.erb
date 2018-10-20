@@ -24,7 +24,7 @@
 											<span><%= @place.address.name %></span>
 											<span><%= @place.created_at.strftime("%d %b %Y") %></span>
 											<span><%= link_to @place.user.name, user_path(@place.user.id) %> </span>
-											<% if @place.user == current_user %>
+											<% if can? :update, @place %>
 												<span>
 													<i class="fa fa-pencil"></i>
 													<%= link_to "Edit this post", edit_place_path(@place.id), class: "update-btn" %>

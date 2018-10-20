@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181014065717) do
+ActiveRecord::Schema.define(version: 20181020062207) do
 
   create_table "addresses", force: :cascade do |t|
     t.string "name"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20181014065717) do
     t.string   "picture_content_type"
     t.integer  "picture_file_size",    limit: 8
     t.datetime "picture_updated_at"
+    t.datetime "deleted_at"
   end
 
   create_table "places", force: :cascade do |t|
@@ -33,7 +34,10 @@ ActiveRecord::Schema.define(version: 20181014065717) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "views_number",   default: 0
+    t.datetime "deleted_at"
   end
+
+  add_index "places", ["deleted_at"], name: "index_places_on_deleted_at"
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                            default: "", null: false

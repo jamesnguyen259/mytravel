@@ -1,5 +1,16 @@
 class PlacesController < ApplicationController
-    before_action :set_place, only: [:show, :edit, :update]
+    before_action :set_place, only: [:show, :edit, :update, :destroy]
+    before_action :authenticate_user!, only: [:new, :edit] 
+    
+    def show
+        @popular_address = Address.joins(:places).group("places.address_id").order("count(places.address_id) desc").take 10
+        @related_reviews = Place.where(address_id: @place.address.id).take 4
+        @same_author_reviews = Place.where(user_id: @place.user.id).take 4
+        
+        #update views number when clicking review post
+        @place.views_number += 1
+        @place.save
+    end
     
     def new
         @place = current_user.places.build
@@ -39,14 +50,10 @@ class PlacesController < ApplicationController
         end
     end
     
-    def show
-        @popular_address = Address.joins(:places).group("places.address_id").order("count(places.address_id) desc").take 10
-        @related_reviews = Place.where(address_id: @place.address.id).take 4
-        @same_author_reviews = Place.where(user_id: @place.user.id).take 4
-        
-        #update views number when clicking review post
-        @place.views_number += 1
-        @place.save
+    def destroy
+        @place.destroy
+        flash[:notice] = "Deleted successfully!!"
+        redirect_to :back
     end
     
     private
