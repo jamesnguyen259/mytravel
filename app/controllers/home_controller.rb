@@ -8,7 +8,4 @@ class HomeController < ApplicationController
   
   def style
   end
-  
-  def fashion
-  end
 end
