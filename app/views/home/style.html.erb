@@ -1,308 +1,120 @@
+<% provide :title, "About us" %>
 <% content_for :content do %>
-		<div id="colorlib-main">
-			<aside id="colorlib-hero" class="js-fullheight">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(/assets/img_bg_1.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc desc2">
-					   						<p class="tag"><span>Style</span></p>
-						   					<h1><a href="#">Strategic Design for Brands</a></h1>
-						   					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-						   					<p><a href="#" class="btn btn-primary btn-outline">Read more</a></p>
+	<div id="colorlib-main">
+		<div class="colorlib-blog">
+			<div class="container-wrap">
+				<div class="row row-pb-lg">
+					<div class="col-md-12 blog-slider">
+						<div class="owl-carousel">
+							<div class="item">
+								<div class="blog-entry">
+									<div class="blog-img" style="background-image: url(<%= asset_path('about_leader.jpg') %>);">
+										<div class="desc desc2 text-center">
+											<p class="tag"><span>Leader</span></p>
+											<div class="desc-bottom">
+												<h2 class="head-article" style="color: #fff">Nguyễn Đình Dương</h2>
+												<p>Yêu màu tím, thích màu hồng</p>
 											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(/assets/img_bg_2.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc desc2">
-					   						<p class="tag"><span>Sports</span></p>
-						   					<h1><a href="#">Creators of Brands Template</a></h1>
-												<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-												<p><a href="#" class="btn btn-primary btn-outline">Read more</a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(/assets/img_bg_3.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc desc2">
-					   						<p class="tag"><span>Fashion</span></p>
-						   					<h1><a href="#">Design &amp; develop functional sites</a></h1>
-												<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-												<p><a href="#" class="btn btn-primary btn-outline">Read more</a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</aside>
-
-			<div class="colorlib-blog">
-				<div class="container-wrap">
-					<div class="row row-bottom-padded-md">
-						<div class="col-md-4">
-							<div class="blog-entry-style animate-box">
-								<div class="blog-img">
-									<a href="blog.html"><%=image_tag "blog-1.jpg", class:"img-responsive", alt:"html5 bootstrap template" %></a>
-								</div>
-								<div class="desc">
-									<p class="meta">
-										<span class="cat"><a href="#">Nature</a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
-									</p>
-									<h2><a href="blog.html">Nature lover</a></h2>
-									<p>A small river named Duden flows by their place and supplies it with the necessary </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="blog-entry-style animate-box">
-								<div class="blog-img">
-									<a href="blog.html"><%= image_tag "blog-2.jpg", class:"img-responsive", alt:"html5 bootstrap template"%></a>
-								</div>
-								<div class="desc">
-									<p class="meta">
-										<span class="cat"><a href="#">Style</a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
-									</p>
-									<h2><a href="blog.html">Girl Fashion</a></h2>
-									<p>A small river named Duden flows by their place and supplies it with the necessary </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="blog-entry-style animate-box">
-								<div class="blog-slider">
-									<div class="owl-carousel">
-										<div class="item">
-											<a href="blog.html" class="image-popup-link"><%= image_tag "blog-3.jpg", class:"img-responsive", alt:"html5 bootstrap template" %></a>
-										</div>
-										<div class="item">
-											<a href="blog.html" class="image-popup-link"><%= image_tag "blog-4.jpg", class:"img-responsive", alt:"html5 bootstrap template" %></a>
 										</div>
 									</div>
 								</div>
-								<div class="desc">
-									<p class="meta">
-										<span class="cat"><a href="#">Style</a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
-									</p>
-									<h2><a href="blog.html">Slider Image</a></h2>
-									<p>A small river named Duden flows by their place and supplies it with the necessary </p>
-								</div>
 							</div>
-						</div>
-					</div>
-					<div class="row row-bottom-padded-md">
-						<div class="col-md-4">
-							<div class="blog-entry-style animate-box">
-								<div class="blog-img">
-									<a href="blog.html"><%= image_tag "blog-4.jpg", class:"img-responsive", alt:"html5 bootstrap template" %></a>
-								</div>
-								<div class="desc">
-									<p class="meta">
-										<span class="cat"><a href="#">Lifestyle</a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
-									</p>
-									<h2><a href="blog.html">A man in black suit</a></h2>
-									<p>A small river named Duden flows by their place and supplies it with the necessary </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="blog-entry-style animate-box">
-								<div class="blog-img">
-									<a href="blog.html"><%= image_tag "blog-5.jpg", class:"img-responsive", alt:"html5 bootstrap template" %></a>
-								</div>
-								<div class="desc">
-									<p class="meta">
-										<span class="cat"><a href="#">Animals</a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
-									</p>
-									<h2><a href="blog.html">Red Fish</a></h2>
-									<p>A small river named Duden flows by their place and supplies it with the necessary </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="blog-entry-style animate-box">
-								<div class="blog-img">
-									<a href="blog.html"><%= image_tag "blog-7.jpg", class:"img-responsive", alt:"html5 bootstrap template" %></a>
-								</div>
-								<div class="desc">
-									<p class="meta">
-										<span class="cat"><a href="#">Video</a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
-									</p>
-									<h2><a href="blog.html">Video John Wick</a></h2>
-									<p>A small river named Duden flows by their place and supplies it with the necessary </p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row row-bottom-padded-md">
-						<div class="col-md-8">
-							<div class="blog-entry-style animate-box">
-								<div class="blog-img">
-									<div class="video colorlib-video" style="background-image: url(/assets/blog-6.jpg);">
-										<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-play4"></i></a>
-										<div class="overlay"></div>
+							
+							<div class="item">
+								<div class="blog-entry">
+									<div class="blog-img" style="background-image: url(<%= asset_path('about_leader.jpg') %>);">
+										<div class="desc desc2 text-center">
+											<p class="tag"><span>Sub leader</span></p>
+											<div class="desc-bottom">
+												<h2 class="head-article" style="color: #fff">Hà Minh Đức</h2>
+												<p>Yêu màu tím, thích màu hồng</p>
+											</div>
+										</div>
 									</div>
 								</div>
-								<div class="desc">
-									<p class="meta">
-										<span class="cat"><a href="#">Watch</a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
-									</p>
-									<h2><a href="blog.html">Watch Liam Neeson</a></h2>
-									<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							</div>
+							
+							<div class="item">
+								<div class="blog-entry">
+									<div class="blog-img" style="background-image: url(<%= asset_path('about_member.jpg') %>);">
+										<div class="desc desc2 text-center">
+											<p class="tag"><span>Member</span></p>
+											<div class="desc-bottom">
+												<h2 class="head-article" style="color: #fff">Phạm Tùng Lâm</h2>
+												<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="blog-entry-style animate-box">
-								<div class="blog-img">
-									<a href="blog.html"><%= image_tag "blog-8.jpg", class:"img-responsive", alt:"html5 bootstrap template" %></a>
-								</div>
-								<div class="desc">
-									<p class="meta">
-										<span class="cat"><a href="#">Animals</a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
-									</p>
-									<h2><a href="blog.html">Black owl</a></h2>
-									<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							
+							<div class="item">
+								<div class="blog-entry">
+									<div class="blog-img" style="background-image: url(<%= asset_path('about_member.jpg') %>);">
+										<div class="desc desc2 text-center">
+											<p class="tag"><span>Member</span></p>
+											<div class="desc-bottom">
+												<h2 class="head-article" style="color: #fff">Đặng Đình Dũng</h2>
+												<p>Có hứng thú với màu tím mộng mơ</p>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-					<div class="row row-bottom-padded-md">
-						<div class="col-md-4">
-							<div class="blog-entry-style animate-box">
-								<div class="blog-img">
-									<a href="blog.html"><%= image_tag "blog-9.jpg", class:"img-responsive", alt:"html5 bootstrap template" %></a>
-								</div>
-								<div class="desc">
-									<p class="meta">
-										<span class="cat"><a href="#">Auto</a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
-									</p>
-									<h2><a href="blog.html">Race bike</a></h2>
-									<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							
+							<div class="item">
+								<div class="blog-entry">
+									<div class="blog-img" style="background-image: url(<%= asset_path('about_member.jpg') %>);">
+										<div class="desc desc2 text-center">
+											<p class="tag"><span>Member</span></p>
+											<div class="desc-bottom">
+												<h2 class="head-article" style="color: #fff">Phạm Hoàng Hưng</h2></h2>
+												<p>Thích ngắm cầu vồng sau mưa</p>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="blog-entry-style animate-box">
-								<div class="blog-img">
-									<a href="blog.html"><%= image_tag "blog-10.jpg", class:"img-responsive", alt:"html5 bootstrap template" %></a>
-								</div>
-								<div class="desc">
-									<p class="meta">
-										<span class="cat"><a href="#">Auto</a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
-									</p>
-									<h2><a href="blog.html">BMW i8</a></h2>
-									<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							
+							<div class="item">
+								<div class="blog-entry">
+									<div class="blog-img" style="background-image: url(<%= asset_path('about_member.jpg') %>);">
+										<div class="desc desc2 text-center">
+											<p class="tag"><span>Member</span></p>
+											<div class="desc-bottom">
+												<h2 class="head-article" style="color: #fff">Trịnh Văn Đại</h2>
+												<p>Màu hồng và màu tím là niềm hi vọng của nhân loại</p>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="blog-entry-style animate-box">
-								<div class="blog-img">
-									<a href="blog.html"><%= image_tag "blog-11.jpg", class:"img-responsive", alt:"html5 bootstrap template" %></a>
-								</div>
-								<div class="desc">
-									<p class="meta">
-										<span class="cat"><a href="#">Fashion</a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
-									</p>
-									<h2><a href="blog.html">Guy in shadow</a></h2>
-									<p>A small river named Duden flows by their place and supplies it with the necessary </p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row row-bottom-padded-md">
-						<div class="col-md-4">
-							<div class="blog-entry-style animate-box">
-								<div class="blog-img">
-									<a href="blog.html"><%= image_tag "blog-12.jpg", class:"img-responsive", alt:"html5 bootstrap template" %></a>
-								</div>
-								<div class="desc">
-									<p class="meta">
-										<span class="cat"><a href="#">Style</a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
-									</p>
-									<h2><a href="blog.html">Red chairs</a></h2>
-									<p>A small river named Duden flows by their place and supplies it with the necessary </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-8">
-							<div class="blog-entry-style animate-box">
-								<div class="blog-img">
-									<a href="blog.html"><%= image_tag "blog-13.jpg", class:"img-responsive", alt:"html5 bootstrap template" %></a>
-								</div>
-								<div class="desc">
-									<p class="meta">
-										<span class="cat"><a href="#">Style</a></span>
-										<span class="date">25 May 2018</span>
-										<span class="pos">By <a href="#">Walter</a></span>
-									</p>
-									<h2><a href="blog.html">Kiddy Fashion</a></h2>
-									<p>A small river named Duden flows by their place and supplies it with the necessary </p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<ul class="pagination">
-								<li class="disabled"><a href="#">&laquo;</a></li>
-								<li class="active"><a href="#">1</a></li>
-								<li><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
-								<li><a href="#">&raquo;</a></li>
-							</ul>
 						</div>
 					</div>
 				</div>
-			</div>			
+
+				<h2>About Vietnam</h2>
+				<div class="row">
+					<div class="col-md-5">
+						<div class="content-wrap">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/ZnKd2j9hqC8" 
+								frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div class="col-md-7">
+						<div class="content-wrap">
+							<p>Vietnam (UK: /ˌvjɛtˈnæm, -ˈnɑːm/, US: /ˌviːət-/ (About this sound listen);
+							Vietnamese: Việt Nam pronounced [vîət nāːm] (About this sound listen)), officially the Socialist Republic of Vietnam (Vietnamese: Cộng hòa Xã hội chủ nghĩa Việt Nam), 
+							is the easternmost country on the Indochina Peninsula. With an estimated 94.6 million inhabitants as of 2016, it is the world's 15th-most-populous country, 
+							and the ninth-most-populous Asian country.
+							Vietnam is bordered by China to the north, Laos to the northwest, Cambodia to the southwest, Thailand across the Gulf of Thailand to the southwest, and the Philippines, 
+							Malaysia and Indonesia across the South China Sea to the east and southeast.
+							Its capital city has been Hanoi since the reunification of North and South Vietnam in 1976, with Ho Chi Minh City as the most populous city.</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
+	</div>
 
 <% end %>
