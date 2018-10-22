@@ -228,6 +228,13 @@
 	     	]
 		});
 	};
+	
+	var replyComment = function () {
+		$(".reply").on("click", function(){
+			$(this).closest('.desc').find('.reply-form').toggle()
+		});
+		
+	}
 
 	var stickyFunction = function() {
 
@@ -276,6 +283,7 @@
 		sliderMain();
 		owlCrouselFeatureSlide();
 		preview();
+		replyComment();
 		stickyFunction();
 	});
 

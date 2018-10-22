@@ -7,6 +7,7 @@ class Ability
     user ||= User.new # guest user (not logged in)
     can :manage, Place, user_id: user.id
     can :update, User, id: user.id
+    can :manage, Comment, user_id: user.id
     can :read, :all
     #
     # The first argument to `can` is the action you are giving the user

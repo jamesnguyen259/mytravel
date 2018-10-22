@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   resources :places
   resources :addresses
   resources :place_pictures
+  resources :comments
 end

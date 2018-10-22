@@ -6,6 +6,9 @@ class PlacesController < ApplicationController
         @popular_address = Address.joins(:places).group("places.address_id").order("count(places.address_id) desc").take 10
         @related_reviews = Place.where(address_id: @place.address.id).take 4
         @same_author_reviews = Place.where(user_id: @place.user.id).take 4
+        if user_signed_in?
+            @new_comment = Comment.build_from(@place, current_user.id, "")
+        end
         
         #update views number when clicking review post
         @place.views_number += 1
@@ -62,6 +65,6 @@ class PlacesController < ApplicationController
         end
         
         def set_place
-          @place = Place.find(params[:id])
+            @place = Place.find(params[:id])
         end
 end
