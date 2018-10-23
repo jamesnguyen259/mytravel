@@ -181,27 +181,6 @@
 			animateOut: 'fadeOut',
 		   animateIn: 'fadeIn',
 			autoplay: true,
-			items: 1,
-			autoHeight: false,
-		   loop: true,
-		   margin: 30,
-		   responsiveClass: true,
-		   nav: false,
-		   dots: true,
-		   autoplayHoverPause: true,
-		   mouseDrag: false,
-		   smartSpeed: 500,
-		   navText: [
-		      "<i class='icon-arrow-left3 owl-direction'></i>",
-		      "<i class='icon-arrow-right3 owl-direction'></i>"
-	     	]
-		});
-
-		var owl = $('.owl-carousel1');
-		owl.owlCarousel({
-			animateOut: 'fadeOut',
-		   animateIn: 'fadeIn',
-			autoplay: true,
 			items: 3,
 			autoHeight: true,
 		   loop: true,
@@ -220,7 +199,7 @@
 		   nav: false,
 		   dots: true,
 		   autoplayHoverPause: true,
-		   mouseDrag: false,
+		   mouseDrag: true,
 		   smartSpeed: 500,
 		   navText: [
 		      "<i class='icon-arrow-left3 owl-direction'></i>",
@@ -237,7 +216,6 @@
 	}
 
 	var stickyFunction = function() {
-
 		var h = $('.image-content').outerHeight();
 
 		if ($(window).width() <= 992 ) {
@@ -262,16 +240,11 @@
 
 				$("#sticky_item").stick_in_parent();
 			}
-			
-
-			
-
-		});
+					});
 
 		$('.sticky-parent').css('height', h);
 
 		$("#sticky_item").stick_in_parent();
-
 	};
 
 	// Document on load.

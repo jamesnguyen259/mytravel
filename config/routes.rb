@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   root 'home#index'
-  get '/style', to: 'home#style', as: 'style'
-  get '/fashion', to: 'home#fashion', as: 'fashion'
+  get '/about', to: 'home#about', as: 'about'
 
   resources :users
   resources :places
