@@ -11,11 +11,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181014065717) do
+ActiveRecord::Schema.define(version: 20181020142719) do
 
   create_table "addresses", force: :cascade do |t|
     t.string "name"
   end
+
+  create_table "comments", force: :cascade do |t|
+    t.integer  "commentable_id"
+    t.string   "commentable_type"
+    t.string   "title"
+    t.text     "body"
+    t.string   "subject"
+    t.integer  "user_id",          null: false
+    t.integer  "parent_id"
+    t.integer  "lft"
+    t.integer  "rgt"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "comments", ["commentable_id", "commentable_type"], name: "index_comments_on_commentable_id_and_commentable_type"
+  add_index "comments", ["user_id"], name: "index_comments_on_user_id"
 
   create_table "place_pictures", force: :cascade do |t|
     t.integer  "place_id"
@@ -23,6 +40,7 @@ ActiveRecord::Schema.define(version: 20181014065717) do
     t.string   "picture_content_type"
     t.integer  "picture_file_size",    limit: 8
     t.datetime "picture_updated_at"
+    t.datetime "deleted_at"
   end
 
   create_table "places", force: :cascade do |t|
@@ -33,7 +51,10 @@ ActiveRecord::Schema.define(version: 20181014065717) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "views_number",   default: 0
+    t.datetime "deleted_at"
   end
+
+  add_index "places", ["deleted_at"], name: "index_places_on_deleted_at"
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                            default: "", null: false
