@@ -76,6 +76,8 @@
 		</div>			
 	</div>
 	
-	<%= render "users/update_profile" %>
+	<% if user_signed_in? %>
+		<%= render "users/update_profile" %>
+	<% end %>
 
 <% end %>
