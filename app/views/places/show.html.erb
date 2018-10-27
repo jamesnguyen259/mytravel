@@ -39,9 +39,12 @@
 							<div class="row row-bottom-padded-md">
 								<div class="col-md-12 animate-box">
 									<h2 class="heading-2">
-										<%= @place.comment_threads.count == 0 ? "no" : @place.comment_threads.count %> comments
+										Comments
+										<%= @place.comment_threads.count == 0 ? "no" : @place.comment_threads.count %>
 									</h2>
-									<%= render partial: "comments/reply", locals: {comments: @place.root_comments} %>
+									<div class = "review-comments">
+										<%= render partial: "comments/reply", locals: {comments: @place.root_comments} %>
+									</div>
 								</div>
 							</div>
 							<% if user_signed_in? %>

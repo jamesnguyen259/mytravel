@@ -2,16 +2,31 @@ class CommentsController < ApplicationController
   before_action :authenticate_user!
 
   def create
+    @new_comment = Comment.build_from(@place, current_user.id, "")
     commentable = commentable_type.constantize.find(commentable_id)
     @comment = Comment.build_from(commentable, current_user.id, body)
-
+    place_id = @comment.commentable_id
+    @place = Place.find(place_id)
     respond_to do |format|
       if @comment.save
         make_child_comment
-        format.html  { redirect_to(:back, :notice => 'Comment was successfully added.') }
+        format.html  { redirect_to @place }
+        format.js
       else
         format.html  { render :action => "new" }
       end
+    end
+  end
+  
+  def destroy
+    @delete_comment = Comment.find(params[:id])
+    place_id = @delete_comment.commentable_id
+    @place = Place.find(place_id)
+    @new_comment = Comment.build_from(@place, current_user.id, "")
+    @delete_comment.destroy
+    respond_to do |format| 
+      format.html { redirect_to @place, @new_comment }
+      format.js
     end
   end
 
