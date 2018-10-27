@@ -209,7 +209,7 @@
 	};
 	
 	var replyComment = function () {
-		$(".reply").on("click", function(){
+		$(document).on("click",".reply", function(){
 			$(this).closest('.desc').find('.reply-form').toggle()
 		});
 		
