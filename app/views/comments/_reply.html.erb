@@ -1,7 +1,7 @@
 <% comments.each do |comment| %>
     <div class="review">
        	<div class="user-img">
-       	    <%= image_tag comment.user.avatar.url(:small) %>
+       	    <%= image_tag comment.user.avatar.url(:small), class: "br-50" %>
        	</div>
        	<div class="desc">
        		<h4>
@@ -17,8 +17,8 @@
          		<p class="star">
          			<span class="text-left">
          			  <a class="reply"><i class="fa fa-reply"></i></a>
-         			  <% if can? :delete, comment %>
-           			  <%= link_to comment_path(comment.id),data: { confirm: "Are you sure?" }, remote: true, method: :delete do %>
+         			  <% if can? :manage, comment %>
+           			  <%= link_to comment_path(comment.id),data: { confirm: "Are you sure?" }, class: "edit-comment", remote: true, method: :delete do %>
            			    <i class="fa fa-trash"></i>
            			  <% end %>
          			  <% end %>
