@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181020142719) do
+ActiveRecord::Schema.define(version: 20181105140238) do
 
   create_table "addresses", force: :cascade do |t|
     t.string "name"
@@ -50,8 +50,9 @@ ActiveRecord::Schema.define(version: 20181020142719) do
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "views_number",   default: 0
+    t.integer  "views_number",             default: 0
     t.datetime "deleted_at"
+    t.float    "rate",           limit: 5, default: 0.0
   end
 
   add_index "places", ["deleted_at"], name: "index_places_on_deleted_at"

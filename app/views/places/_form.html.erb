@@ -15,6 +15,11 @@
     </div>
     
     <div class="form-group">
+        <%= f.label :rate %>
+        <%= f.number_field :rate, class: "form-control", step: 0.5, required: true %>
+    </div>
+    
+    <div class="form-group">
         <%= f.label :pictures %>
         <div class="controls">
           <%= file_field_tag "images[]", type: :file, multiple: true, class: "upload-image" %>
