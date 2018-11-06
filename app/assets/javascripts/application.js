@@ -25,4 +25,5 @@
 //= require waypoints/zepto.waypoints.js
 //= require waypoints/zepto.waypoints.min.js
 //= require owl.carousel
+//= require jquery.raty
 //= require main

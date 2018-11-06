@@ -34,8 +34,11 @@
 									</div>
 									<h2><%= @place.place_name %></h2>
 									<p><%= @place.review_content %></p>
-									<h1 align="right"> Rating: <%= @place.rate %></h1>
+									<h2 align="right">
+										<div class="star-rating" data-score= <%= @place.rate %> >Rating: </div>
+									</h2>
 								</div>
+								
 							</article>
 							<div class="row row-bottom-padded-md">
 								<div class="col-md-12 animate-box">

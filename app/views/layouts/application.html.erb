@@ -24,7 +24,7 @@
 				<ul>
 					<% if user_signed_in? %>
 						<li>
-							<%= image_tag current_user.avatar.url(:small), style: "border-radius: 50%" %>
+							<%= image_tag current_user.avatar.url(:small), class: "br-50" %>
 							<%= current_user.name %>
 						</li>
 					<% end %>
@@ -59,7 +59,6 @@
 
 </body>
 
-<script src="https://cdn.rawgit.com/leafo/sticky-kit/v1.1.2/jquery.sticky-kit.min.js"></script>
 <script>
 	// ===== Scroll to Top ==== 
 	$(window).scroll(function() {
@@ -73,6 +72,13 @@
 	    $('body,html').animate({
 	        scrollTop : 0                       // Scroll to top of body
 	    }, 500);
+	});
+	$('.star-rating').raty({
+	      path: '/assets/',
+	      readOnly: true,
+	      score: function() {
+	            return $(this).attr('data-score');
+	    }
 	});
 </script>
 
