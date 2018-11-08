@@ -12,7 +12,7 @@ class UsersController < ApplicationController
     end
     
     def show
-        @my_reviews = @user.places.paginate(page: params[:page], per_page: 6)
+        @my_reviews = @user.places
     end
     
     private
