@@ -17,7 +17,7 @@
          		<p class="star">
          			<span class="text-left">
          			  <a class="reply"><i class="fa fa-reply"></i></a>
-         			  <% if can? :manage, comment %>
+         			  <% if (can? :destroy, comment) || (comment.commentable.user == current_user) %>
            			  <%= link_to comment_path(comment.id),data: { confirm: "Are you sure?" }, class: "edit-comment", remote: true, method: :delete do %>
            			    <i class="fa fa-trash"></i>
            			  <% end %>

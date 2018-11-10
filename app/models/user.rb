@@ -5,6 +5,8 @@ class User < ActiveRecord::Base
            :recoverable, :rememberable, :validatable
     has_many :places
     has_many :comments
+    validates :name, presence: true
+    validates :email, presence: true
     
     has_attached_file :avatar, 
         :styles => { small: "64x64" },
