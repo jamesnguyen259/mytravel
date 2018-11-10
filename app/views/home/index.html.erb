@@ -7,42 +7,72 @@
 				<div class="row">
 					<div class="col-md-9">
 						<div class="content-wrap">
-							<% @place_reviews.each do |review| %>
-								<article class="animate-box">
-									<div class="blog-img" style="background-image: url(<%= review.place_pictures.first.picture.url %>);"></div>
-									<div class="desc">
-										<div class="meta">
-											<p>
-												<span><%= review.address.name %></span>
-												<span><%= review.user.name %></span>
-												<span><%= review.created_at.strftime("%d %b %Y") %></span>
-												<span><i class="fa fa-eye"></i><i><%= review.views_number %> views</i></span>
-											</p>
-										</div>
-										<h2><%= link_to review.place_name, place_path(review.id)  %></h2>
-										<p><%= review.review_content[0..250] %>...</p>
-										<p><%= link_to place_path(review.id), class:"btn btn-primary with-arrow" do %>
-											Read More <i class="fa fa-angle-double-right"></i>
-										<% end %></p>
-									</div>
-								</article>
-							<% end %>
-							<div class="row">
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							
+							<% if params[:search] %>
+								<% if @result.present? %>
+									<% @result.each do |review| %>
+										<article class="animate-box">
+											<div class="blog-img" style="background-image: url(<%= review.place_pictures.first.picture.url %>);"></div>
+											<div class="desc">
+												<div class="meta">
+													<p>
+														<span><%= review.address.name %></span>
+														<span><%= review.user.name %></span>
+														<span><%= review.created_at.strftime("%d %b %Y") %></span>
+														<span><i class="fa fa-eye"></i><i><%= review.views_number %> views</i></span>
+													</p>
+												</div>
+												<h2><%= link_to review.place_name, place_path(review.id)  %></h2>
+												<p><%= review.review_content[0..250] %>...</p>
+												<p><%= link_to place_path(review.id), class:"btn btn-primary with-arrow" do %>
+													Read More <i class="fa fa-angle-double-right"></i>
+												<% end %></p>
+											</div>
+										</article>
+									<% end %>
 									<div class="digg_pagination">
-										<%= will_paginate @place_reviews %>
+										<%= will_paginate @result %>
 									</div>
+								<% else %>
+									<p>Found no post</p>
+								<% end %>
+							<% else %>
+								<% @place_reviews.each do |review| %>
+									<article class="animate-box">
+										<div class="blog-img" style="background-image: url(<%= review.place_pictures.first.picture.url %>);"></div>
+										<div class="desc">
+											<div class="meta">
+												<p>
+													<span><%= review.address.name %></span>
+													<span><%= review.user.name %></span>
+													<span><%= review.created_at.strftime("%d %b %Y") %></span>
+													<span><i class="fa fa-eye"></i><i><%= review.views_number %> views</i></span>
+												</p>
+											</div>
+											<h2><%= link_to review.place_name, place_path(review.id)  %></h2>
+											<p><%= review.review_content[0..250] %>...</p>
+											<p><%= link_to place_path(review.id), class:"btn btn-primary with-arrow" do %>
+												Read More <i class="fa fa-angle-double-right"></i>
+											<% end %></p>
+										</div>
+									</article>
+								<% end %>
+								<div class="digg_pagination">
+									<%= will_paginate @place_reviews %>
 								</div>
-							</div>
+							<% end %>
+							
 						</div>
 					</div>
 					<div class="col-md-3 sticky-parent">
 						<div class="sidebar" id="sticky_item">
 							<div class="side animate-box">
-								<div class="form-group">
-									<input type="text" class="form-control" id="search" placeholder="Enter to search...">
-									<button type="submit" class="btn submit btn-primary"><i class="fa fa-search"></i></button>
-								</div>
+								<form>
+									<div class="form-group">
+										<input type="text" class="form-control" id="search" name="search" placeholder="Enter to search...">
+										<button type="submit" class="btn submit btn-primary"><i class="fa fa-search"></i></button>
+									</div>
+								</form>
 							</div>
 							<div class="side animate-box">
 								<h2 class="sidebar-heading">Popular address</h2>

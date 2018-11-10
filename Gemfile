@@ -27,11 +27,9 @@ gem "bootstrap-sass", "~> 3.3.7"
 gem "flexslider"
 gem "jquery-easing-rails"
 gem 'animate-rails', '~> 1.0', '>= 1.0.10'
-gem 'magnific-popup-rails', '~> 1.1'
 gem 'waypoints_rails'
 gem 'modernizr-rails', '~> 2.7', '>= 2.7.1'
 gem 'owlcarousel-rails', '~> 2.2', '>= 2.2.3.5'
-gem 'stickykit-rails', '~> 1.1', '>= 1.1.2'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 
 gem 'devise'
