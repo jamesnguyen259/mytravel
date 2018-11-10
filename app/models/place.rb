@@ -5,6 +5,9 @@ class Place < ActiveRecord::Base
     belongs_to :user
     belongs_to :address
     has_many :place_pictures, dependent: :destroy
+    validates :place_name, presence: true
+    validates :review_content, presence: true
+    validates :address_id, presence: true
     
     def self.search key_word
         word = trim key_word, " ."

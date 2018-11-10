@@ -1,5 +1,7 @@
 RailsAdmin.config do |config|
   config.parent_controller = 'ApplicationController'
+  
+  config.included_models = %w[ User Address Place PlacePicture ]
   ### Popular gems integration
 
   ## == Devise ==
@@ -24,18 +26,47 @@ RailsAdmin.config do |config|
   # config.show_gravatar = true
 
   config.actions do
-    dashboard                     # mandatory
-    index                         # mandatory
+    
+    dashboard do
+      statistics false
+    end
+
+    index
+    
     new
-    # export
+
     bulk_delete
+    
     show
+    
     edit
+    
     delete
-    show_in_app
+    
+    show_in_app do
+      except ['PlacePicture']
+    end
 
     ## With an audit adapter, you can add:
     # history_index
     # history_show
+    
+    config.model User do
+      list do
+        fields :id, :email, :name, :is_admin, :created_at
+      end
+    end
+    
+    config.model Address do
+      list do
+        fields :id, :name
+      end
+    end
+    
+    config.model Place do
+      list do
+        fields :id, :place_name, :rate, :views_number, :user, :address, :created_at
+      end
+    end
   end
 end

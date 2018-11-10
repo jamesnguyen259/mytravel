@@ -9,12 +9,13 @@ class Ability
       can :access, :rails_admin
       can :dashboard
       can :manage, :all
+      cannot :update, User
     else
-      can :manage, Place, user_id: user.id
-      can :update, User, id: user.id
-      can :manage, Comment, user_id: user.id
       can :read, :all
+      can :manage, Place, user_id: user.id
+      can :manage, Comment, user_id: user.id
     end
+    can :update, User, id: user.id
     #
     # The first argument to `can` is the action you are giving the user
     # permission to do.
