@@ -12,6 +12,7 @@
        			    <%= time_ago_in_words(comment.created_at) %>
        			</span>
        		</h4>
+       		<p><div class="comment-rating" data-score= <%= comment.personal_rate %> ></div></p>
        		<p><%= comment.body %></p>
        		<% if user_signed_in? %>
          		<p class="star">
@@ -43,5 +44,14 @@
        	    <%= render partial: "comments/reply", locals: {comments: comment.children} %>
        	</div>
     </div>
-    
 <% end %>
+
+<script>
+		$('.comment-rating').raty({
+		      path: '/assets/',
+		      readOnly: true,
+		      score: function() {
+		      	return $(this).attr('data-score');
+		    }
+		});
+</script>

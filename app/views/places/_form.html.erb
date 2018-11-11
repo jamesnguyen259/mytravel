@@ -16,7 +16,7 @@
     
     <div class="form-group">
         <%= f.label :rate %>
-        <%= f.number_field :rate, class: "form-control", step: 0.5 %>
+        <div id="star-rating"></div>
     </div>
     
     <div class="form-group">
@@ -27,6 +27,14 @@
         <div class="preview"></div>
     </div>
     
-    <%= f.submit yield(:button_text), class: "btn btn-primary" %>
-    <%= link_to "Back", :back, class: "btn btn-warning" %>
- <% end %>
+    <%= f.submit yield(:button_text), class: "btn btn-warning" %>
+    <%= link_to "Back", :back, class: "btn btn-primary" %>
+<% end %>
+    
+<script>
+    $("#star-rating").raty({
+        path: '/assets/',
+        half: true,
+        scoreName: 'place[rate]'
+    });
+</script>
