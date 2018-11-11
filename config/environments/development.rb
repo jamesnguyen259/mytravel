@@ -38,6 +38,21 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
-  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+  config.action_mailer.default_url_options = { :host => 'https://mytravel-lampt1911.c9users.io' }
   Paperclip.options[:command_path] = "/usr/bin/convert"
+  
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.default :charset => "utf-8"
+  # SMTP settings for gmail
+  config.action_mailer.smtp_settings = {
+     :address              => "smtp.gmail.com",
+     :port                 => 587,
+     :domain               => "mail.google.com",
+     :user_name            => 'noreply200474@gmail.com',
+     :password             => 'muadong1',
+     :authentication       => "plain",
+     :enable_starttls_auto => true
+  }
 end
