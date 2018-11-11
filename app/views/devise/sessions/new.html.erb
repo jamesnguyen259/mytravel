@@ -34,12 +34,18 @@
 			  					</span>
 			  				</div>
 			
-				            <% if devise_mapping.rememberable? -%>
+				            <% if devise_mapping.rememberable? %>
 								<div class="contact100-form-checkbox m-l-4">
 								  <%= f.check_box :remember_me, class: "input-checkbox100" %>
 								  <%= f.label :remember_me, class: "label-checkbox100" %>
 								</div>
-			  				<% end -%>
+			  				<% end %>
+			  				
+			  				<% if devise_mapping.recoverable? %>
+			  					<div class="contact100-form m-r-4">
+							  		<%= link_to "Forgot your password?", new_password_path(resource_name) %>
+							  	</div>
+							<% end %>
 			  				
 			  				<div class="container-login100-form-btn p-t-25">
 			  				  <%= f.submit "Log in", class: "login100-form-btn" %>
