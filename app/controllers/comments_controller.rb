@@ -1,13 +1,12 @@
 class CommentsController < ApplicationController
   before_action :authenticate_user!
-  before_action :new_comment, only: [:create, :destroy]
 
   def create
     commentable = commentable_type.constantize.find(commentable_id)
     @comment = Comment.build_from(commentable, current_user.id, body)
     @comment.personal_rate = params[:comment][:personal_rate]
     @place = Place.find(@comment.commentable_id)
-    
+    @new_comment = Comment.build_from(commentable, current_user.id, "")
     respond_to do |format|
       if @comment.save
         make_child_comment
@@ -20,7 +19,7 @@ class CommentsController < ApplicationController
   def destroy
     @delete_comment = Comment.find(params[:id])
     @place = Place.find(@delete_comment.commentable_id)
-    
+    @new_comment = Comment.build_from(@place, current_user.id, "")
     respond_to do |format| 
       if @delete_comment.destroy
         format.html { redirect_to @place, @new_comment }
@@ -30,10 +29,6 @@ class CommentsController < ApplicationController
   end
 
   private
-  
-    def new_comment
-      @new_comment = Comment.build_from(@place, current_user.id, "")
-    end
   
     def comment_params
       params.require(:comment).permit(:body, :commentable_id, :commentable_type, :comment_id, :personal_rate)
