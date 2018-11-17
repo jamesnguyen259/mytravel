@@ -43,19 +43,19 @@
 							<div class="row row-bottom-padded-md">
 								<div class="col-md-12 animate-box">
 									<h2 class="heading-2">
-										<p>Comments <%= @place.comment_threads.count == 0 ? "no" : @place.comment_threads.count %></p>
-										<div class="average-rating"><%= render partial: "comments/average_rating" %></div>
+										<div id="comments"><%= render partial: "comments/comments_number", locals: { place: @place } %></div>
+										<div class="average-rating"><%= render partial: "comments/average_rating", locals: { place: @place } %></div>
 									</h2>
 									<div class = "review-comments">
 										<%= render partial: "comments/reply", locals: {comments: @place.root_comments} %>
 									</div>
 								</div>
 							</div>
-							<% if user_signed_in? %>
+							<% if user_signed_in? && (@place.user_id != current_user.id)%>
 								<div class="row">
 									<div class="col-md-12 animate-box">
 										<h2 class="heading-2">Say something</h2>
-										<%= render partial: "comments/form", locals: {new_comment: @new_comment} %>
+										<%= render partial: "comments/form"%>
 									</div>
 								</div>
 							<% end %>

@@ -10,8 +10,8 @@ class CommentsController < ApplicationController
     respond_to do |format|
       if @comment.save
         make_child_comment
-        format.html  { redirect_to @place, @new_comment }
         format.js
+        format.html  { redirect_to @place, @new_comment }
       end
     end
   end
@@ -22,8 +22,8 @@ class CommentsController < ApplicationController
     @new_comment = Comment.build_from(@place, current_user.id, "")
     respond_to do |format| 
       if @delete_comment.destroy
-        format.html { redirect_to @place, @new_comment }
         format.js
+        format.html { redirect_to @place, @new_comment }
       end
     end
   end
