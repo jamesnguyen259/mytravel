@@ -1,21 +1,25 @@
-<%= form_for @new_comment, remote:true do |f| %>
-  <%= f.hidden_field :commentable_id, value: @new_comment.commentable_id %>
-  <%= f.hidden_field :commentable_type, value: @new_comment.commentable_type %>
-  <div class="form-group">
-    <div id="comment-rating"></div>
-  </div>
-  <div class="form-group">
-    <%= f.text_area :body, class: 'form-control', id: 'cmt-message', rows: '10' %>
-  </div>
-  <div class="form-group">
-    <%= submit_tag "Post comment", class: 'btn btn-primary' %>
-  </div>
+<% if !(place.root_comments.find_by user_id: current_user.id)%>  
+  <%= form_for new_comment, remote:true do |f| %>
+    <%= f.hidden_field :commentable_id, value: new_comment.commentable_id %>
+    <%= f.hidden_field :commentable_type, value: new_comment.commentable_type %>
+    <div class="form-group">
+      <div id="comment-rating"></div>
+    </div>
+    <div class="form-group">
+      <%= f.text_area :body, class: 'form-control', id: 'cmt-message', rows: '10' %>
+    </div>
+    <div class="form-group">
+      <%= submit_tag "Post comment", class: 'btn btn-primary' %>
+    </div>
+  <% end %>
+  
+  <script>
+      $("#comment-rating").raty({
+          path: '/assets/',
+          half: true,
+          scoreName: 'comment[personal_rate]'
+      });
+  </script>
+<% else %>
+  <div><p style="color:red">You rated this post, so you can not rate it again!</p></div>
 <% end %>
-
-<script>
-    $("#comment-rating").raty({
-        path: '/assets/',
-        half: true,
-        scoreName: 'comment[personal_rate]'
-    });
-</script>

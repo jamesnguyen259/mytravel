@@ -55,7 +55,7 @@
 								<div class="row">
 									<div class="col-md-12 animate-box">
 										<h2 class="heading-2">Say something</h2>
-										<%= render partial: "comments/form"%>
+										<div id="comment-form"><%= render partial: "comments/form", locals: { new_comment: @new_comment, place: @place } %></div>
 									</div>
 								</div>
 							<% end %>
