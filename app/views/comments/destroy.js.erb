@@ -1,5 +1,5 @@
 $("#comments").html('<%= j render "comments/comments_number", place: @place %>')
 $(".average-rating").html('<%= j render "comments/average_rating", place: @place %>')
 $(".review-comments").html('<%= j render "comments/reply", comments: @place.root_comments %>')
-
+$("#comment-form").html('<%= j render "comments/form", new_comment: @new_comment, place: @place %>')
 
