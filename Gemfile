@@ -40,6 +40,8 @@ gem 'cancancan'
 gem "paranoia", "~> 2.2" #soft delete
 gem 'acts_as_commentable_with_threading'
 gem 'rails_admin'
+gem "omniauth"
+gem "omniauth-facebook"
 
 # Use Unicorn as the app server
 # gem 'unicorn'

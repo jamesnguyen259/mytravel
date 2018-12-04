@@ -287,4 +287,8 @@ Devise.setup do |config|
   # ActiveSupport.on_load(:devise_failure_app) do
   #   include Turbolinks::Controller
   # end
+  config.omniauth :facebook, '979208328953112', '6c515fafb5fe5da1e8b247b13ce889b4', 
+    scope: 'email', 
+    info_fields: 'email,name',
+    callback_url: 'https://mytravel-lampt1911.c9users.io/users/auth/facebook/callback'
 end
