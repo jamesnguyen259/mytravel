@@ -37,8 +37,8 @@
 									<h2 align="right">
 										<div class="star-rating" data-score= <%= @place.rate %> >Rating: </div>
 									</h2>
+									<h3 align="right">Share this places? <%= social_share_button_tag('Sharing this place', :url => place_url(@place), desc: @place.place_name) %></h3>
 								</div>
-								
 							</article>
 							<div class="row row-bottom-padded-md">
 								<div class="col-md-12 animate-box">

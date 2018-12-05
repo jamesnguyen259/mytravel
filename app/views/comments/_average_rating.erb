@@ -1,4 +1,4 @@
-<p>Average rating:<div class="comment-rating" data-score= <%= place.comment_threads.count == 0 ? 0 : place.root_comments.average(:personal_rate) %> ></div></p>
+<p>Average rating:<div class="comment-rating" data-score= <%= place.comment_threads.count == 0 ? 0 : place.root_comments.average(:personal_rate) %> > </div><%= @place.root_comments.average(:personal_rate) %> </p>
 <script type = "text/javascript">
     $('.comment-rating').raty({
 	      path: '/assets/',

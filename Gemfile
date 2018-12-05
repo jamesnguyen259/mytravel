@@ -42,6 +42,7 @@ gem 'acts_as_commentable_with_threading'
 gem 'rails_admin'
 gem "omniauth"
 gem "omniauth-facebook"
+gem 'social-share-button'
 
 # Use Unicorn as the app server
 # gem 'unicorn'

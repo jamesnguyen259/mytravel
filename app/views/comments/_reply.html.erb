@@ -17,12 +17,12 @@
        		<% if user_signed_in? %>
          		<p class="star">
          			<span class="text-left">
-         			  <a class="reply"><i class="fa fa-reply"></i></a>
          			  <% if (can? :destroy, comment) || (comment.commentable.user == current_user) %>
            			  <%= link_to comment_path(comment.id),data: { confirm: "Are you sure?" }, class: "edit-comment", remote: true, method: :delete do %>
            			    <i class="fa fa-trash"></i>
            			  <% end %>
          			  <% end %>
+         			  <a class="edit-comment"><i class="fa fa-reply"></i></a>
          			</span>
          		</p>
          		<div class="reply-form">
