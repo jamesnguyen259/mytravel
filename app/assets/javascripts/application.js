@@ -20,3 +20,4 @@
 //= require owl.carousel
 //= require jquery.raty
 //= require main
+//= require social-share-button
